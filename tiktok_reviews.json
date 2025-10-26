@@ -1,5 +1,45 @@
 [
   {
+    "id": "android_b733e5b5-beb3-4309-83e6-5254152f7c79",
+    "platform": "android",
+    "author": "thảo trần",
+    "date": "2025-10-24T20:25:35.287Z",
+    "rating": 1,
+    "text": "sao ko đăng đk video nên",
+    "title": "",
+    "version": "41.9.3",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "android_44b699d1-5111-44d7-b58b-94589a617878",
+    "platform": "android",
+    "author": "Ken 79",
+    "date": "2025-10-24T13:48:30.712Z",
+    "rating": 5,
+    "text": "tốt nhất",
+    "title": "",
+    "version": "",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": 1,
+      "label": "positive"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
     "id": "android_7ac43b55-ff33-4d3e-916b-623f0b486336",
     "platform": "android",
     "author": "Hai Nguyen",
