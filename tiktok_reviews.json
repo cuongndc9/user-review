@@ -1,5 +1,25 @@
 [
   {
+    "id": "android_964b93fb-1b9a-4858-9f3c-6859fedb0f5a",
+    "platform": "android",
+    "author": "Tran Baoyen",
+    "date": "2025-10-25T14:38:38.681Z",
+    "rating": 5,
+    "text": "tối nhưng hay mất tài khoản",
+    "title": "",
+    "version": "42.2.3",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": 1,
+      "label": "positive"
+    },
+    "categories": [
+      "account"
+    ]
+  },
+  {
     "id": "android_b733e5b5-beb3-4309-83e6-5254152f7c79",
     "platform": "android",
     "author": "thảo trần",
