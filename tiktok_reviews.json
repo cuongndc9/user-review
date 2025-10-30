@@ -1,5 +1,25 @@
 [
   {
+    "id": "android_657b42c1-5820-4640-b012-d50e35e26156",
+    "platform": "android",
+    "author": "Que Dinh",
+    "date": "2025-10-28T12:19:40.191Z",
+    "rating": 4,
+    "text": "rất thú vị vadf",
+    "title": "",
+    "version": "42.2.3",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": 0.5,
+      "label": "positive"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
     "id": "android_be558912-d700-44e7-ac32-7a338c091a82",
     "platform": "android",
     "author": "Xx20 May",
@@ -9033,7 +9053,7 @@
   {
     "id": "android_a2ac81be-534a-402e-bbd3-381949a0027c",
     "platform": "android",
-    "author": "Thanh Tuấn Nguyễn",
+    "author": "Anh Dũng",
     "date": "2024-08-18T11:21:38.124Z",
     "rating": 5,
     "text": "rất hay",
