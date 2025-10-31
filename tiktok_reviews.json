@@ -1,5 +1,45 @@
 [
   {
+    "id": "android_d6f27fb6-d978-46ba-b52c-04c115840b72",
+    "platform": "android",
+    "author": "zaid khan",
+    "date": "2025-10-29T14:14:18.416Z",
+    "rating": 5,
+    "text": "good",
+    "title": "",
+    "version": "41.9.3",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": 1,
+      "label": "positive"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "android_4d2e58b7-61a9-4949-b25f-cd2280bae63a",
+    "platform": "android",
+    "author": "Nhung Nguyễn",
+    "date": "2025-10-29T12:13:49.557Z",
+    "rating": 5,
+    "text": "Hơi lag 1 tí nhưng chs chuỗi đc 😃",
+    "title": "",
+    "version": "",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": 1,
+      "label": "positive"
+    },
+    "categories": [
+      "performance"
+    ]
+  },
+  {
     "id": "android_657b42c1-5820-4640-b012-d50e35e26156",
     "platform": "android",
     "author": "Que Dinh",
@@ -3381,27 +3421,6 @@
     },
     "categories": [
       "general"
-    ]
-  },
-  {
-    "id": "android_793b41dd-fb5f-4bb1-aed3-127896dcbc09",
-    "platform": "android",
-    "author": "ngoc hang ngô",
-    "date": "2025-04-23T05:39:54.300Z",
-    "rating": 1,
-    "text": "muốn vào lướt phải cài đặt lại mới vào được ứng dụng bị vấn đề gì vậy?",
-    "title": "",
-    "version": "",
-    "device": "",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": -1,
-      "label": "negative"
-    },
-    "categories": [
-      "bugs",
-      "update"
     ]
   },
   {
