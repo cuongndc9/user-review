@@ -1,5 +1,46 @@
 [
   {
+    "id": "android_793b41dd-fb5f-4bb1-aed3-127896dcbc09",
+    "platform": "android",
+    "author": "ngoc hang ngô",
+    "date": "2025-10-30T08:34:04.768Z",
+    "rating": 1,
+    "text": "muốn vào lướt phải cài đặt lại mới vào được ứng dụng bị vấn đề gì vậy? hở cái là mất thanh dịch ngôn ngữ lại phải gỡ cài lại bị vấn đề gì đấy. mấy ông Code lỏ vậy?",
+    "title": "",
+    "version": "",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "bugs",
+      "update"
+    ]
+  },
+  {
+    "id": "android_f3f611b1-2215-46e1-8417-f7ab54301cf8",
+    "platform": "android",
+    "author": "Hưng Nguyễn",
+    "date": "2025-10-30T07:36:09.485Z",
+    "rating": 1,
+    "text": "sao tôi ko gửi được ảnh",
+    "title": "",
+    "version": "42.3.4",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
     "id": "android_d6f27fb6-d978-46ba-b52c-04c115840b72",
     "platform": "android",
     "author": "zaid khan",
@@ -41076,7 +41117,7 @@
   {
     "id": "android_515c652a-65ec-4b3b-a66b-b5209b12a28b",
     "platform": "android",
-    "author": "GUITAR Zzz MUSIC PASSION",
+    "author": "Công Nguyễn Thành",
     "date": "2021-08-26T14:38:40.280Z",
     "rating": 5,
     "text": "Trả biết tại sao nhueng em lấy lại nick của em có 0 follow ý 0 người thích giúp em với😥",
