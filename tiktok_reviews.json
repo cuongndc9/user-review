@@ -1,5 +1,45 @@
 [
   {
+    "id": "android_abfac7c8-b03c-468e-ab24-b5866cac233c",
+    "platform": "android",
+    "author": "kieu thuy",
+    "date": "2025-11-02T11:36:10.802Z",
+    "rating": 5,
+    "text": "tốt",
+    "title": "",
+    "version": "",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": 1,
+      "label": "positive"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "android_2b8ddb29-6366-4750-aac6-6c96797ef22c",
+    "platform": "android",
+    "author": "Mình Pham",
+    "date": "2025-11-02T04:07:34.182Z",
+    "rating": 5,
+    "text": "vui",
+    "title": "",
+    "version": "34.2.3",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": 1,
+      "label": "positive"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
     "id": "android_14fd09db-a07a-4fc6-b5b2-9056ab910283",
     "platform": "android",
     "author": "Bông",
@@ -38777,7 +38817,7 @@
   {
     "id": "android_52c40abd-fc1e-4182-8b07-ca51005bd514",
     "platform": "android",
-    "author": "Phuong Nguyen",
+    "author": "D .N",
     "date": "2021-10-12T02:17:05.990Z",
     "rating": 5,
     "text": "Ok",
