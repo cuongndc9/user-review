@@ -1,5 +1,25 @@
 [
   {
+    "id": "android_f0498ee4-78cf-43a5-943a-90c803447fc6",
+    "platform": "android",
+    "author": "Thân Đặng",
+    "date": "2025-11-09T14:34:04.349Z",
+    "rating": 1,
+    "text": "sao tôi kh vào đc vậy",
+    "title": "",
+    "version": "",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
     "id": "android_f4bda637-8e11-4011-933e-4680834a43a0",
     "platform": "android",
     "author": "Như Quỳnh Nguyễn",
@@ -20848,7 +20868,7 @@
   {
     "id": "android_925e5267-1b24-4d95-a50f-45299992dc2e",
     "platform": "android",
-    "author": "Mỹ hương Phạm thị",
+    "author": "Người dùng Google",
     "date": "2023-05-12T22:26:33.880Z",
     "rating": 4,
     "text": "Dopocuji,akorat moc pravidla,ktere neznam",
