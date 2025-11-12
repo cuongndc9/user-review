@@ -1,5 +1,45 @@
 [
   {
+    "id": "android_6f3e80ae-c5f8-42e7-a761-06136d2373a5",
+    "platform": "android",
+    "author": "Định Thanh Đang",
+    "date": "2025-11-10T18:10:16.900Z",
+    "rating": 5,
+    "text": "rất hữu ích cảm ơn",
+    "title": "",
+    "version": "42.4.4",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": 1,
+      "label": "positive"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "android_a1ee7071-9203-4a9d-b3c9-b47a4bb2f149",
+    "platform": "android",
+    "author": "Tuấnyevjdbnz nfdw in dẻo opcv Phongkfgggyybvcxw",
+    "date": "2025-11-10T05:22:34.738Z",
+    "rating": 5,
+    "text": "ngày nào cũng phải ôm cái tiktok mới chịu được -))",
+    "title": "",
+    "version": "41.9.3",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": 0.9,
+      "label": "positive"
+    },
+    "categories": [
+      "update"
+    ]
+  },
+  {
     "id": "android_f0498ee4-78cf-43a5-943a-90c803447fc6",
     "platform": "android",
     "author": "Thân Đặng",
@@ -24889,7 +24929,7 @@
   {
     "id": "android_8498e134-7b99-4e97-8acd-aff4bb534e27",
     "platform": "android",
-    "author": "Ella Le Family",
+    "author": "Người dùng Google",
     "date": "2022-10-11T20:58:03.139Z",
     "rating": 5,
     "text": "I love tiktok so much",
