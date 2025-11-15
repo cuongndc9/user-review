@@ -1,5 +1,45 @@
 [
   {
+    "id": "android_3accaa12-0ada-495f-92f2-df9048a8db9b",
+    "platform": "android",
+    "author": "Dr.T",
+    "date": "2025-11-14T01:26:53.723Z",
+    "rating": 1,
+    "text": "không 1 cái voucher nào. Bảo sao lúc nào cũng xách dép cho Shopee =)))",
+    "title": "",
+    "version": "42.4.4",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "android_9b37adf1-b4f4-48a3-8aa8-91db69cd8148",
+    "platform": "android",
+    "author": "cam linh son thi",
+    "date": "2025-11-13T05:15:28.198Z",
+    "rating": 5,
+    "text": "Trai nghiem rat tot",
+    "title": "",
+    "version": "41.2.3",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": 1,
+      "label": "positive"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
     "id": "android_cac26b82-d767-4a31-8492-532825d8fae4",
     "platform": "android",
     "author": "Phương Đỗ Thị Bích",
