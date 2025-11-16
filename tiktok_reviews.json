@@ -1,5 +1,25 @@
 [
   {
+    "id": "android_b11e5eab-a405-409a-b97c-8f91323a3d91",
+    "platform": "android",
+    "author": "Diep Nguyen Bao",
+    "date": "2025-11-14T15:53:59.436Z",
+    "rating": 1,
+    "text": "vô dụng",
+    "title": "",
+    "version": "42.4.4",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
     "id": "android_3accaa12-0ada-495f-92f2-df9048a8db9b",
     "platform": "android",
     "author": "Dr.T",
@@ -3058,26 +3078,6 @@
     "sentiment": {
       "score": -1,
       "label": "negative"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "android_0123f810-cef3-4e41-b21f-7cd3bebc726e",
-    "platform": "android",
-    "author": "Người dùng Google",
-    "date": "2025-05-30T00:14:30.272Z",
-    "rating": 5,
-    "text": "vì nó rất nhiều xã hội rất thú vị",
-    "title": "",
-    "version": "",
-    "device": "",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": 1,
-      "label": "positive"
     },
     "categories": [
       "general"
@@ -12259,7 +12259,7 @@
   {
     "id": "android_444591ba-32db-4591-9320-febc60d74a24",
     "platform": "android",
-    "author": "nhunhu.0792",
+    "author": "Ngocbo",
     "date": "2024-04-20T15:27:05.277Z",
     "rating": 3,
     "text": "tai ve k len dc",
@@ -25209,7 +25209,7 @@
   {
     "id": "android_3605ae6b-9698-4ed1-b0b4-a97d10047716",
     "platform": "android",
-    "author": "Đạt Dương",
+    "author": "DUONG VAN DAT (SÓI)",
     "date": "2022-10-01T08:00:46.290Z",
     "rating": 5,
     "text": "Tuyệt vời",
@@ -69457,26 +69457,6 @@
     ]
   },
   {
-    "id": "android_f8308e38-a023-4c3e-a3ca-5a0f8dd4e6cf",
-    "platform": "android",
-    "author": "Người dùng Google",
-    "date": "2018-09-20T11:53:43.810Z",
-    "rating": 5,
-    "text": "Good",
-    "title": "",
-    "version": "8.5.0",
-    "device": "",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": 1,
-      "label": "positive"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
     "id": "android_74b590df-40ea-47af-8cc8-80e7b214314e",
     "platform": "android",
     "author": "Người dùng Google",
@@ -86074,26 +86054,6 @@
     "date": "2016-10-15T10:43:13.911Z",
     "rating": 5,
     "text": "Hay nhưng toàn bị mất video",
-    "title": "",
-    "version": "",
-    "device": "",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": 1,
-      "label": "positive"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "android_a5a3831e-1e8c-40b7-87b0-bd192a2441b0",
-    "platform": "android",
-    "author": "Người dùng Google",
-    "date": "2016-10-15T09:39:03.545Z",
-    "rating": 5,
-    "text": "Hay lắm",
     "title": "",
     "version": "",
     "device": "",
