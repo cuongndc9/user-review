@@ -1,5 +1,45 @@
 [
   {
+    "id": "android_b3847818-ad1a-4282-9925-06515e8d4d5d",
+    "platform": "android",
+    "author": "Ngoc Nguyen",
+    "date": "2025-11-16T01:44:04.590Z",
+    "rating": 5,
+    "text": "ok 👌👌👌👌👌👌👌",
+    "title": "",
+    "version": "29.0.3",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": 1,
+      "label": "positive"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "android_daa2a50d-b790-415c-a046-83d62675d5f6",
+    "platform": "android",
+    "author": "linh trần",
+    "date": "2025-11-15T11:29:56.676Z",
+    "rating": 1,
+    "text": "tik tok tự động xáo tài khoản người dùng",
+    "title": "",
+    "version": "",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "account"
+    ]
+  },
+  {
     "id": "android_b11e5eab-a405-409a-b97c-8f91323a3d91",
     "platform": "android",
     "author": "Diep Nguyen Bao",
@@ -12259,7 +12299,7 @@
   {
     "id": "android_444591ba-32db-4591-9320-febc60d74a24",
     "platform": "android",
-    "author": "Ngocbo",
+    "author": "nhu nhu.0792 “nhunhu”",
     "date": "2024-04-20T15:27:05.277Z",
     "rating": 3,
     "text": "tai ve k len dc",
