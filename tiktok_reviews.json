@@ -1,5 +1,25 @@
 [
   {
+    "id": "android_fc0750b5-1323-4082-87f1-2e4217683873",
+    "platform": "android",
+    "author": "nguyen nguyen",
+    "date": "2025-11-20T21:25:48.781Z",
+    "rating": 2,
+    "text": "tiktok dạo này bị lỗi rất nhiêu, hk xem đc vào đc trang cá nhân của ngk nữa, biểu tượng live cũng mất",
+    "title": "",
+    "version": "",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -0.6,
+      "label": "negative"
+    },
+    "categories": [
+      "bugs"
+    ]
+  },
+  {
     "id": "android_c018f26d-1775-424e-9b78-3d718de0ff8e",
     "platform": "android",
     "author": "Di Quy",
