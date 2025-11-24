@@ -1,5 +1,25 @@
 [
   {
+    "id": "android_7234392d-d254-42bc-a1d0-f5fc8c998b28",
+    "platform": "android",
+    "author": "Anicka Nguyen",
+    "date": "2025-11-22T18:09:57.347Z",
+    "rating": 5,
+    "text": "rất hay nhưng tôi ko bt cách làm chuối",
+    "title": "",
+    "version": "42.6.4",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": 1,
+      "label": "positive"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
     "id": "android_fc0750b5-1323-4082-87f1-2e4217683873",
     "platform": "android",
     "author": "nguyen nguyen",
