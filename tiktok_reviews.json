@@ -1,5 +1,25 @@
 [
   {
+    "id": "android_6eee745c-c3ed-4930-af42-67c45b025161",
+    "platform": "android",
+    "author": "vu nguyen thi",
+    "date": "2025-11-25T16:46:16.699Z",
+    "rating": 5,
+    "text": "cho cảm giác vui hơn , yêu đời hơn , mạnh mẽ hơn trong cuộc sống",
+    "title": "",
+    "version": "42.6.4",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": 1,
+      "label": "positive"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
     "id": "android_7234392d-d254-42bc-a1d0-f5fc8c998b28",
     "platform": "android",
     "author": "Anicka Nguyen",
@@ -615,26 +635,6 @@
     "sentiment": {
       "score": 1,
       "label": "positive"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "android_2fdedc40-e13a-4da8-9867-d78374b4462a",
-    "platform": "android",
-    "author": "Haido A",
-    "date": "2025-10-14T16:17:38.611Z",
-    "rating": 1,
-    "text": "như 🤬",
-    "title": "",
-    "version": "",
-    "device": "",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": -1,
-      "label": "negative"
     },
     "categories": [
       "general"
@@ -2203,7 +2203,7 @@
   {
     "id": "android_6344ae7a-bcbf-4869-bae9-b4e0bdbbf33b",
     "platform": "android",
-    "author": "NK Long",
+    "author": "Akizuki Setsuna",
     "date": "2025-07-24T03:49:30.640Z",
     "rating": 2,
     "text": "nhu",
