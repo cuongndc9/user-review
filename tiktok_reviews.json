@@ -1,5 +1,26 @@
 [
   {
+    "id": "android_18aad735-6067-46b4-810f-f5e85d8b7b64",
+    "platform": "android",
+    "author": "Đạt Trần",
+    "date": "2025-11-28T16:01:50.565Z",
+    "rating": 1,
+    "text": "tệ không follow được người dùng",
+    "title": "",
+    "version": "",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "account",
+      "engagement"
+    ]
+  },
+  {
     "id": "android_6eee745c-c3ed-4930-af42-67c45b025161",
     "platform": "android",
     "author": "vu nguyen thi",

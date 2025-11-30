@@ -4,303 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Đánh giá ứng dụng công nghệ Việt Nam</title>
-    <meta name="description" content="Khám phá đánh giá người dùng các ứng dụng mobile phổ biến tại Việt Nam: Zalo, MoMo, Xanh SM, Be, Grab, Techcombank, ZaloPay, Shopee, Lazada, Tiki, TikTok, Facebook, Instagram... Xem xu hướng và góc nhìn thực tế từ người dùng.">
+    <meta name="description" content="Khám phá đánh giá người dùng các ứng dụng mobile phổ biến tại Việt Nam">
     <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/9131/9131478.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        :root {
-            --primary-text: #1a1a1a;
-            --secondary-text: #666;
-            --background: #f8fafc;
-            --card-bg: #ffffff;
-            --shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-            --border-radius: 12px;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            background: var(--background);
-            color: var(--primary-text);
-            line-height: 1.6;
-            padding: 16px;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 16px;
-        }
-
-        h1, h2, h3 {
-            font-weight: 600;
-            color: var(--primary-text);
-        }
-
-        h1 {
-            font-size: 2rem;
-            text-align: center;
-            margin: 24px 0 8px;
-        }
-
-        .subtitle {
-            text-align: center;
-            color: var(--secondary-text);
-            max-width: 600px;
-            margin: 0 auto 32px;
-            font-size: 1rem;
-        }
-
-        .app-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 16px;
-            padding: 16px 0;
-        }
-
-        .app-card {
-            background: var(--card-bg);
-            border-radius: var(--border-radius);
-            box-shadow: var(--shadow);
-            overflow: hidden;
-            transition: transform 0.2s;
-            cursor: pointer;
-        }
-
-        .app-card:hover {
-            transform: translateY(-4px);
-        }
-
-        .app-card.disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
-
-        .app-card-header {
-            height: 4px;
-        }
-
-        .app-card-content {
-            padding: 16px;
-            text-align: center;
-        }
-
-        .app-logo {
-            width: 48px;
-            height: 48px;
-            object-fit: contain;
-            border-radius: 8px;
-            background: #fff;
-            margin: 0 auto 12px;
-        }
-
-        .app-card h3 {
-            font-size: 1.25rem;
-            margin-bottom: 8px;
-        }
-
-        .app-card p {
-            color: var(--secondary-text);
-            font-size: 0.9rem;
-        }
-
-        .dashboard-header {
-            display: flex;
-            align-items: center;
-            gap: 16px;
-            padding: 24px;
-            background: var(--card-bg);
-            border-radius: var(--border-radius);
-            box-shadow: var(--shadow);
-            margin-bottom: 24px;
-        }
-
-        .dashboard-logo {
-            width: 64px;
-            height: 64px;
-            border-radius: 12px;
-            background: #fff;
-        }
-
-        .back-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 8px 16px;
-            background: none;
-            border: 1px solid #e5e7eb;
-            border-radius: 8px;
-            font-size: 0.95rem;
-            cursor: pointer;
-            transition: background 0.2s;
-            margin-bottom: 16px;
-        }
-
-        .back-btn:hover {
-            background: #f1f5f9;
-        }
-
-        .card {
-            background: var(--card-bg);
-            border-radius: var(--border-radius);
-            box-shadow: var(--shadow);
-            margin-bottom: 24px;
-        }
-
-        .card-header {
-            padding: 16px;
-            border-bottom: 1px solid #e5e7eb;
-            font-size: 1.1rem;
-            font-weight: 600;
-        }
-
-        .card-body {
-            padding: 16px;
-        }
-
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 16px;
-        }
-
-        .stat-item {
-            text-align: center;
-        }
-
-        .stat-title {
-            font-size: 0.9rem;
-            color: var(--secondary-text);
-            margin-bottom: 4px;
-        }
-
-        .stat-value {
-            font-size: 1.2rem;
-            font-weight: 600;
-        }
-
-        .chart-wrapper {
-            max-width: 100%;
-            padding: 16px;
-        }
-
-        .review-filters {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin-bottom: 16px;
-        }
-
-        .review-filters input, .review-filters select, .review-filters button {
-            padding: 8px 12px;
-            border: 1px solid #e5e7eb;
-            border-radius: 8px;
-            font-size: 0.95rem;
-            background: #fff;
-        }
-
-        .review-filters button {
-            background: #2563eb;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-            transition: background 0.2s;
-        }
-
-        .review-filters button:hover {
-            background: #1e40af;
-        }
-
-        .review-filters .reset-btn {
-            background: none;
-            border: 1px solid #e5e7eb;
-            color: var(--primary-text);
-        }
-
-        .review-filters .reset-btn:hover {
-            background: #f1f5f9;
-        }
-
-        .review-list .review-item {
-            padding: 12px 0;
-            border-bottom: 1px solid #e5e7eb;
-        }
-
-        .review-meta {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            color: var(--secondary-text);
-            font-size: 0.9rem;
-            margin-bottom: 8px;
-        }
-
-        .review-content {
-            font-size: 0.95rem;
-        }
-
-        .footer {
-            text-align: center;
-            color: var(--secondary-text);
-            font-size: 0.9rem;
-            padding: 24px 0;
-        }
-
-        .footer a {
-            color: #2563eb;
-            text-decoration: none;
-        }
-
-        .footer a:hover {
-            text-decoration: underline;
-        }
-
-        .loading {
-            text-align: center;
-            padding: 48px;
-            color: var(--secondary-text);
-            font-size: 1rem;
-        }
-
-        .loading::after {
-            content: '';
-            display: inline-block;
-            width: 24px;
-            height: 24px;
-            border: 2px solid #2563eb;
-            border-top-color: transparent;
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin-left: 8px;
-            vertical-align: middle;
-        }
-
-        @keyframes spin {
-            to { transform: rotate(360deg); }
-        }
-
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; }
+        .container { max-width: 1400px; margin: 0 auto; padding: 24px; }
+        .hero { text-align: center; padding: 48px 24px; color: white; }
+        .hero h1 { font-size: 2.5rem; font-weight: 700; margin-bottom: 16px; }
+        .hero p { font-size: 1.1rem; opacity: 0.9; max-width: 600px; margin: 0 auto; }
+        .app-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; padding: 20px 0; }
+        .app-card { background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.1); transition: all 0.3s ease; cursor: pointer; }
+        .app-card:hover { transform: translateY(-8px); box-shadow: 0 20px 60px rgba(0,0,0,0.2); }
+        .app-card-gradient { height: 6px; }
+        .app-card-content { padding: 24px; }
+        .app-card-header { display: flex; align-items: center; gap: 16px; margin-bottom: 16px; }
+        .app-logo { width: 56px; height: 56px; border-radius: 12px; object-fit: contain; background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .app-info h3 { font-size: 1.25rem; font-weight: 600; color: #111827; }
+        .app-info p { font-size: 0.875rem; color: #6b7280; }
+        .app-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; padding-top: 16px; border-top: 1px solid #f3f4f6; }
+        .stat-mini { text-align: center; }
+        .stat-mini-value { font-size: 1.1rem; font-weight: 600; color: #1f2937; }
+        .stat-mini-label { font-size: 0.7rem; color: #6b7280; text-transform: uppercase; }
+        .all-reviews-btn { display: flex; align-items: center; justify-content: center; gap: 12px; width: 100%; max-width: 500px; margin: 32px auto; padding: 18px 36px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; border-radius: 16px; font-size: 1.1rem; font-weight: 600; cursor: pointer; box-shadow: 0 10px 30px rgba(102,126,234,0.4); transition: all 0.3s ease; }
+        .all-reviews-btn:hover { transform: translateY(-3px); box-shadow: 0 15px 40px rgba(102,126,234,0.5); }
+        .back-btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 24px; background: white; border: none; border-radius: 12px; font-size: 0.95rem; font-weight: 500; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: all 0.2s ease; color: #374151; }
+        .back-btn:hover { background: #f9fafb; transform: translateX(-4px); }
+        .dashboard-header { display: flex; align-items: center; gap: 20px; padding: 28px; background: white; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.1); margin-bottom: 24px; }
+        .dashboard-logo { width: 72px; height: 72px; border-radius: 16px; object-fit: contain; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .card { background: white; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.08); margin-bottom: 24px; overflow: hidden; }
+        .card-header { padding: 20px 24px; border-bottom: 1px solid #f3f4f6; font-size: 1.1rem; font-weight: 600; color: #1f2937; display: flex; align-items: center; gap: 10px; }
+        .card-body { padding: 24px; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 20px; }
+        .stat-card { background: linear-gradient(135deg, #f9fafb 0%, white 100%); padding: 20px; border-radius: 16px; text-align: center; border: 1px solid #f3f4f6; }
+        .stat-card-value { font-size: 1.75rem; font-weight: 700; margin-bottom: 4px; }
+        .stat-card-label { font-size: 0.75rem; color: #6b7280; text-transform: uppercase; }
+        .filter-section { background: white; padding: 24px; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.08); margin-bottom: 24px; }
+        .filter-title { font-size: 1rem; font-weight: 600; color: #1f2937; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+        .filter-row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+        .filter-input { flex: 1; min-width: 200px; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 12px; font-size: 0.95rem; transition: all 0.2s ease; background: white; }
+        .filter-input:focus { outline: none; border-color: #6366f1; box-shadow: 0 0 0 4px rgba(99,102,241,0.1); }
+        .filter-select { padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 12px; font-size: 0.95rem; background: white; cursor: pointer; min-width: 150px; }
+        .filter-select:focus { outline: none; border-color: #6366f1; }
+        .btn { padding: 12px 24px; border: none; border-radius: 12px; font-size: 0.95rem; font-weight: 500; cursor: pointer; transition: all 0.2s ease; display: inline-flex; align-items: center; gap: 8px; }
+        .btn-primary { background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%); color: white; box-shadow: 0 4px 12px rgba(99,102,241,0.3); }
+        .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(99,102,241,0.4); }
+        .btn-secondary { background: #f3f4f6; color: #374151; }
+        .btn-secondary:hover { background: #e5e7eb; }
+        .results-info { display: flex; justify-content: space-between; align-items: center; padding: 16px 20px; background: linear-gradient(135deg, #f9fafb 0%, white 100%); border-radius: 12px; margin-bottom: 20px; border: 1px solid #f3f4f6; }
+        .review-item { background: white; border: 1px solid #e5e7eb; border-radius: 16px; padding: 20px; margin-bottom: 16px; transition: all 0.2s ease; }
+        .review-item:hover { box-shadow: 0 8px 25px rgba(0,0,0,0.08); border-color: #d1d5db; }
+        .review-header { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-bottom: 12px; }
+        .company-badge { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; color: white; }
+        .company-badge img { width: 18px; height: 18px; border-radius: 4px; }
+        .rating-stars { color: #f59e0b; font-size: 1.1rem; letter-spacing: 2px; }
+        .sentiment-badge { padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 500; }
+        .sentiment-positive { background: #dcfce7; color: #16a34a; }
+        .sentiment-neutral { background: #f3f4f6; color: #6b7280; }
+        .sentiment-negative { background: #fee2e2; color: #dc2626; }
+        .platform-badge { padding: 4px 8px; border-radius: 6px; font-size: 0.7rem; font-weight: 600; text-transform: uppercase; background: #f3f4f6; color: #4b5563; }
+        .review-author { font-weight: 500; color: #374151; }
+        .review-title { font-size: 1rem; font-weight: 600; color: #111827; margin: 8px 0; }
+        .review-categories { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+        .category-tag { padding: 4px 10px; background: #f3f4f6; border-radius: 20px; font-size: 0.75rem; color: #4b5563; }
+        .review-meta { display: flex; gap: 16px; font-size: 0.8rem; color: #9ca3af; margin: 8px 0; }
+        .review-content { background: #f9fafb; padding: 16px; border-radius: 12px; color: #374151; line-height: 1.7; font-size: 0.95rem; margin-top: 12px; }
+        .developer-reply { margin-top: 16px; padding: 16px; background: linear-gradient(135deg, #eff6ff 0%, #f0f9ff 100%); border-radius: 12px; border-left: 4px solid #3b82f6; }
+        .developer-reply-header { font-weight: 600; color: #1f2937; font-size: 0.85rem; margin-bottom: 8px; display: flex; align-items: center; gap: 6px; }
+        .load-more-btn { display: block; width: 100%; max-width: 400px; margin: 24px auto; padding: 16px 32px; background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%); color: white; border: none; border-radius: 14px; font-size: 1rem; font-weight: 600; cursor: pointer; box-shadow: 0 8px 25px rgba(99,102,241,0.3); transition: all 0.3s ease; }
+        .load-more-btn:hover { transform: translateY(-3px); box-shadow: 0 12px 35px rgba(99,102,241,0.4); }
+        .global-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 16px; margin-bottom: 24px; }
+        .global-stat-card { background: white; padding: 24px 20px; border-radius: 16px; text-align: center; box-shadow: 0 10px 40px rgba(0,0,0,0.08); }
+        .global-stat-value { font-size: 2rem; font-weight: 700; background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .global-stat-label { font-size: 0.8rem; color: #6b7280; margin-top: 4px; }
+        .chart-wrapper { padding: 20px; }
+        .footer { text-align: center; padding: 32px; color: white; opacity: 0.9; }
+        .footer a { color: white; text-decoration: none; font-weight: 500; }
+        .footer a:hover { text-decoration: underline; }
+        .loading { text-align: center; padding: 60px; color: white; }
+        .loading-spinner { display: inline-block; width: 40px; height: 40px; border: 4px solid rgba(255,255,255,0.3); border-top-color: white; border-radius: 50%; animation: spin 1s linear infinite; margin-bottom: 16px; }
+        @keyframes spin { to { transform: rotate(360deg); } }
         @media (max-width: 768px) {
-            h1 { font-size: 1.5rem; }
-            .subtitle { font-size: 0.9rem; }
+            .hero h1 { font-size: 1.75rem; }
+            .hero p { font-size: 0.95rem; }
             .app-grid { grid-template-columns: 1fr; }
-            .app-logo { width: 40px; height: 40px; }
-            .dashboard-logo { width: 48px; height: 48px; }
-            .dashboard-header { flex-direction: column; align-items: flex-start; }
-            .review-filters { flex-direction: column; }
-            .review-filters input, .review-filters select, .review-filters button { width: 100%; }
+            .dashboard-header { flex-direction: column; text-align: center; }
+            .filter-row { flex-direction: column; }
+            .filter-input, .filter-select { width: 100%; min-width: auto; }
+            .results-info { flex-direction: column; gap: 8px; }
         }
     </style>
 </head>
 <body>
     <div id="root"></div>
     <div class="footer">
-        © 2025 Nguyễn Duy Cương - <a href="https://www.linkedin.com/in/cuong9/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        © 2025 Nguyễn Duy Cương - <a href="https://www.linkedin.com/in/cuong9/" target="_blank">LinkedIn</a>
     </div>
     <script>
         const DEFAULT_ICON = 'https://cdn-icons-png.flaticon.com/512/9131/9131478.png';
@@ -316,446 +117,219 @@
             { key: 'tiki', name: 'Tiki', color: '#1ba0e2', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxXZz2KkwktUnS9FLo-mTm1uVouIGs4ukWqg&s', json: 'tiki_reviews.json' },
             { key: 'tiktok', name: 'TikTok', color: '#010101', logo: 'https://www.citypng.com/public/uploads/preview/tik-tok-logo-transparent-square-701751694793273qftyarldbx.png', json: 'tiktok_reviews.json' },
         ];
-        let currentApp = null;
-        let currentReviews = [];
-        let filteredReviews = [];
-        let charts = {};
-        const cache = {};
+        let currentApp = null, currentReviews = [], filteredReviews = [], allReviewsData = {}, allReviewsCombined = [], isAllReviewsMode = false, charts = {};
+        const cache = {}, REVIEWS_PER_PAGE = 100;
+        let currentDisplayCount = REVIEWS_PER_PAGE, currentSortOrder = 'newest';
 
-        function getCacheKey(appKey) {
-            const today = moment().format('YYYY-MM-DD');
-            return `${appKey}_${today}`;
-        }
-
-        function isCacheValid(cacheEntry) {
-            if (!cacheEntry) return false;
-            const cacheDate = moment(cacheEntry.timestamp);
-            return cacheDate.isSame(moment(), 'day');
-        }
+        function formatDate(d) { if (!d) return ''; try { return new Date(d).toLocaleDateString('vi-VN') + ' ' + new Date(d).toLocaleTimeString('vi-VN', {hour:'2-digit',minute:'2-digit'}); } catch { return d; } }
+        function getCacheKey(k) { const t = new Date(); return `${k}_${t.getFullYear()}-${String(t.getMonth()+1).padStart(2,'0')}-${String(t.getDate()).padStart(2,'0')}`; }
+        function isCacheValid(e) { if (!e) return false; return new Date(e.timestamp).toDateString() === new Date().toDateString(); }
+        function formatNumber(n) { if (n >= 1e6) return (n/1e6).toFixed(1)+'M'; if (n >= 1e3) return (n/1e3).toFixed(1)+'K'; return n.toLocaleString(); }
+        function adjustColor(c, a) { const h = c.replace('#',''), n = parseInt(h,16), r = Math.min(255,Math.max(0,(n>>16)+a)), g = Math.min(255,Math.max(0,((n>>8)&0xFF)+a)), b = Math.min(255,Math.max(0,(n&0xFF)+a)); return `#${(1<<24|r<<16|g<<8|b).toString(16).slice(1)}`; }
+        function escapeHTML(s) { return s ? String(s).replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&apos;','"':'&quot;'}[c])) : ''; }
 
         function renderHome() {
-            currentApp = null;
-            currentReviews = [];
-            filteredReviews = [];
-            destroyCharts();
-            const root = document.getElementById('root');
-            root.innerHTML = `
+            currentApp = null; currentReviews = []; filteredReviews = []; isAllReviewsMode = false; destroyCharts();
+            document.getElementById('root').innerHTML = `
+                <div class="hero"><h1>🎯 Đánh giá ứng dụng Việt Nam</h1><p>Khám phá cảm nhận thực tế từ hàng triệu người dùng iOS & Android. Dữ liệu minh bạch, cập nhật hàng ngày.</p></div>
                 <div class="container">
-                    <h1>Đánh giá ứng dụng công nghệ Việt Nam</h1>
-                    <div class="subtitle">Khám phá cảm nhận thực tế và xu hướng từ hàng triệu người dùng iOS & Android. Dữ liệu minh bạch, cập nhật hàng ngày.</div>
-                    <div class="app-grid">
-                        ${APPS.map(app => renderAppCard(app)).join('')}
-                    </div>
-                </div>
-            `;
-            APPS.forEach(app => checkAppData(app));
+                    <button class="all-reviews-btn" id="view-all-btn"><span>🔍</span> Xem tất cả đánh giá từ mọi ứng dụng</button>
+                    <div class="app-grid" id="app-grid"></div>
+                </div>`;
+            document.getElementById('view-all-btn').onclick = loadAllReviews;
+            loadAppCards();
         }
 
-        function renderAppCard(app) {
-            return `
-                <div class="app-card" id="app-card-${app.key}">
-                    <div class="app-card-header" style="background:${app.color}"></div>
-                    <div class="app-card-content">
-                        <img src="${app.logo || DEFAULT_ICON}" alt="${app.name} logo" class="app-logo" onerror="this.src='${DEFAULT_ICON}'" />
-                        <h3>${app.name}</h3>
-                        <p id="app-card-desc-${app.key}">Đang kiểm tra dữ liệu...</p>
-                    </div>
-                </div>
-            `;
-        }
-
-        function checkAppData(app) {
-            const cacheKey = getCacheKey(app.key);
-            const cachedData = cache[cacheKey];
-            const card = document.getElementById(`app-card-${app.key}`);
-            const desc = document.getElementById(`app-card-desc-${app.key}`);
-
-            if (cachedData && isCacheValid(cachedData)) {
-                card.classList.remove('disabled');
-                card.style.cursor = 'pointer';
-                desc.innerText = 'Xem đánh giá & xu hướng';
-                card.onclick = () => loadAppDashboard(app, cachedData.data);
-                return;
+        async function loadAppCards() {
+            const grid = document.getElementById('app-grid');
+            for (const app of APPS) {
+                const ck = getCacheKey(app.key); let data = null;
+                if (cache[ck] && isCacheValid(cache[ck])) { data = cache[ck].data; }
+                else { try { const r = await fetch(`./${app.json}`); if (r.ok) { data = await r.json(); cache[ck] = {data, timestamp: new Date()}; } } catch {} }
+                const stats = data ? calculateQuickStats(data) : null;
+                grid.innerHTML += renderAppCard(app, stats);
             }
-
-            fetch(`./${app.json}`, { method: 'HEAD' })
-                .then(res => {
-                    if (res.ok) {
-                        card.classList.remove('disabled');
-                        card.style.cursor = 'pointer';
-                        desc.innerText = 'Xem đánh giá & xu hướng';
-                        card.onclick = () => loadAppDashboard(app);
-                    } else {
-                        card.classList.add('disabled');
-                        desc.innerText = 'Chưa có dữ liệu';
-                        card.onclick = null;
-                    }
-                })
-                .catch(() => {
-                    card.classList.add('disabled');
-                    desc.innerText = 'Chưa có dữ liệu';
-                    card.onclick = null;
-                });
+            APPS.forEach(app => { const c = document.getElementById(`app-card-${app.key}`); if (c && !c.classList.contains('disabled')) c.onclick = () => loadAppDashboard(app); });
         }
 
-        function loadAppDashboard(app, cachedData = null) {
-            currentApp = app;
-            destroyCharts();
-            const root = document.getElementById('root');
-            root.innerHTML = `
-                <div class="container">
-                    <button class="back-btn">← Quay lại</button>
-                    <div class="loading">Đang tải dữ liệu, vui lòng chờ...</div>
+        function calculateQuickStats(d) { const t = d.length, p = d.filter(r => r.rating >= 4).length, a = t > 0 ? (d.reduce((s,r) => s+(r.rating||0), 0)/t).toFixed(1) : '0.0', s = t > 0 ? Math.round((p/t)*100) : 0; return {total:t, avgRating:a, satisfaction:s}; }
+
+        function renderAppCard(app, stats) {
+            return `<div class="app-card ${!stats ? 'disabled opacity-50 cursor-not-allowed' : ''}" id="app-card-${app.key}">
+                <div class="app-card-gradient" style="background:linear-gradient(135deg,${app.color} 0%,${adjustColor(app.color,-20)} 100%)"></div>
+                <div class="app-card-content">
+                    <div class="app-card-header">
+                        <img src="${app.logo||DEFAULT_ICON}" alt="${app.name}" class="app-logo" onerror="this.src='${DEFAULT_ICON}'"/>
+                        <div class="app-info"><h3>${app.name}</h3><p>${stats ? 'Xem đánh giá chi tiết' : 'Chưa có dữ liệu'}</p></div>
+                    </div>
+                    ${stats ? `<div class="app-stats">
+                        <div class="stat-mini"><div class="stat-mini-value">${formatNumber(stats.total)}</div><div class="stat-mini-label">Đánh giá</div></div>
+                        <div class="stat-mini"><div class="stat-mini-value">${stats.avgRating}★</div><div class="stat-mini-label">Trung bình</div></div>
+                        <div class="stat-mini"><div class="stat-mini-value" style="color:#16a34a">${stats.satisfaction}%</div><div class="stat-mini-label">Hài lòng</div></div>
+                    </div>` : ''}
                 </div>
-            `;
-            document.querySelector('.back-btn').onclick = renderHome;
-
-            if (cachedData) {
-                currentReviews = cachedData;
-                filteredReviews = cachedData;
-                renderDashboard(app, cachedData);
-                return;
-            }
-
-            const cacheKey = getCacheKey(app.key);
-            fetch(`./${app.json}`)
-                .then(res => {
-                    if (!res.ok) throw new Error('Không có dữ liệu');
-                    return res.json();
-                })
-                .then(data => {
-                    cache[cacheKey] = { data, timestamp: new Date() };
-                    currentReviews = data;
-                    filteredReviews = data;
-                    renderDashboard(app, data);
-                })
-                .catch(() => {
-                    document.querySelector('.loading').innerHTML = '<div style="text-align:center;color:#666;">Không có dữ liệu đánh giá cho ứng dụng này.</div>';
-                });
+            </div>`;
         }
 
-        function renderDashboard(app, reviews) {
-            const metrics = calculateMetrics(reviews);
-            const root = document.getElementById('root');
-            root.innerHTML = `
-                <div class="container">
-                    <button class="back-btn">← Quay lại</button>
-                    <div class="dashboard-header">
-                        <img src="${app.logo || DEFAULT_ICON}" alt="${app.name} logo" class="dashboard-logo" onerror="this.src='${DEFAULT_ICON}'" />
-                        <div>
-                            <h2 style="color:${app.color};">${app.name}</h2>
-                            <div style="color:#666;">Phân tích đánh giá người dùng</div>
+        async function loadAllReviews() {
+            isAllReviewsMode = true; currentDisplayCount = REVIEWS_PER_PAGE; currentSortOrder = 'newest'; destroyCharts();
+            document.getElementById('root').innerHTML = `<div class="container" style="padding-top:32px;"><button class="back-btn" id="back-btn">← Quay lại</button><div class="loading"><div class="loading-spinner"></div><p>Đang tải dữ liệu...</p></div></div>`;
+            document.getElementById('back-btn').onclick = renderHome;
+            const results = await Promise.all(APPS.map(async app => { const ck = getCacheKey(app.key); if (cache[ck] && isCacheValid(cache[ck])) return {app, data: cache[ck].data}; try { const r = await fetch(`./${app.json}`); if (!r.ok) return {app, data:[]}; const d = await r.json(); cache[ck] = {data:d, timestamp:new Date()}; return {app, data:d}; } catch { return {app, data:[]}; } }));
+            allReviewsData = {}; allReviewsCombined = [];
+            results.forEach(({app, data}) => { allReviewsData[app.key] = data; allReviewsCombined = allReviewsCombined.concat(data.map(r => ({...r, appKey:app.key, appName:app.name, appColor:app.color, appLogo:app.logo}))); });
+            allReviewsCombined.sort((a,b) => new Date(b.date) - new Date(a.date));
+            currentReviews = allReviewsCombined; filteredReviews = allReviewsCombined;
+            renderAllReviewsDashboard();
+        }
+
+        function renderAllReviewsDashboard() {
+            const total = allReviewsCombined.length, allCats = Array.from(new Set(allReviewsCombined.flatMap(r => r.categories||[]))), sat = total > 0 ? Math.round((allReviewsCombined.filter(r => r.rating >= 4).length/total)*100) : 0;
+            document.getElementById('root').innerHTML = `
+                <div class="container" style="padding-top:32px;">
+                    <button class="back-btn" id="back-btn">← Quay lại</button>
+                    <h1 style="color:white;margin:24px 0 8px;font-size:2rem;">🔍 Tất cả đánh giá</h1>
+                    <p style="color:rgba(255,255,255,0.8);margin-bottom:24px;">Tìm kiếm trong ${formatNumber(total)} đánh giá từ ${APPS.length} ứng dụng</p>
+                    <div class="global-stats">
+                        <div class="global-stat-card"><div class="global-stat-value">${formatNumber(total)}</div><div class="global-stat-label">Tổng đánh giá</div></div>
+                        <div class="global-stat-card"><div class="global-stat-value">${APPS.length}</div><div class="global-stat-label">Ứng dụng</div></div>
+                        <div class="global-stat-card"><div class="global-stat-value">${allCats.length}</div><div class="global-stat-label">Danh mục</div></div>
+                        <div class="global-stat-card"><div class="global-stat-value">${sat}%</div><div class="global-stat-label">Hài lòng</div></div>
+                    </div>
+                    <div class="filter-section">
+                        <div class="filter-title">🔎 Tìm kiếm & Lọc</div>
+                        <div class="filter-row">
+                            <input type="text" id="global-search" class="filter-input" placeholder="Tìm kiếm nội dung..."/>
+                            <select id="global-company" class="filter-select"><option value="">Tất cả công ty</option>${APPS.map(a => `<option value="${a.key}">${a.name}</option>`).join('')}</select>
+                            <select id="global-category" class="filter-select"><option value="">Tất cả danh mục</option>${allCats.map(c => `<option value="${c}">${c}</option>`).join('')}</select>
+                        </div>
+                        <div class="filter-row" style="margin-top:12px;">
+                            <select id="global-platform" class="filter-select"><option value="">Tất cả thiết bị</option><option value="android">Android</option><option value="ios">iOS</option></select>
+                            <select id="global-rating" class="filter-select"><option value="">Tất cả sao</option>${[5,4,3,2,1].map(r => `<option value="${r}">${r} ★</option>`).join('')}</select>
+                            <select id="global-sentiment" class="filter-select"><option value="">Tất cả cảm xúc</option><option value="positive">Tích cực</option><option value="neutral">Trung lập</option><option value="negative">Tiêu cực</option></select>
+                            <select id="global-sort" class="filter-select"><option value="newest">Mới nhất</option><option value="oldest">Cũ nhất</option><option value="highest">Sao cao</option><option value="lowest">Sao thấp</option></select>
+                        </div>
+                        <div style="margin-top:16px;display:flex;gap:12px;">
+                            <button class="btn btn-primary" id="global-filter-btn">🔍 Tìm kiếm</button>
+                            <button class="btn btn-secondary" id="global-reset-btn">↺ Đặt lại</button>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header">Thống kê chính</div>
-                        <div class="card-body">
-                            <div class="stats-grid">
-                                ${renderStats(metrics, app.color)}
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">Phân bố đánh giá</div>
-                        <div class="card-body">
-                            <div class="chart-wrapper"><canvas id="ratingChart"></canvas></div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">Phân bố theo danh mục & thiết bị</div>
-                        <div class="card-body">
-                            <div class="stats-grid">
-                                <div>
-                                    <div style="font-weight:600;margin-bottom:8px;">Danh mục</div>
-                                    <div class="chart-wrapper"><canvas id="categoryChart"></canvas></div>
-                                </div>
-                                <div>
-                                    <div style="font-weight:600;margin-bottom:8px;">Thiết bị</div>
-                                    <div class="chart-wrapper"><canvas id="deviceChart"></canvas></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">Phân bố theo danh mục</div>
-                        <div class="card-body">
-                            <div class="chart-wrapper"><canvas id="categoryDistributionChart"></canvas></div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">Danh sách đánh giá</div>
-                        <div class="card-body">
-                            <div id="review-filters"></div>
-                            <div id="review-list" class="review-list"></div>
-                        </div>
-                    </div>
-                </div>
-            `;
-            document.querySelector('.back-btn').onclick = renderHome;
-            renderCharts(metrics, app.color);
-            renderReviewFilters();
+                    <div class="card"><div class="card-header">📝 Danh sách đánh giá</div><div class="card-body"><div id="review-list"></div></div></div>
+                </div>`;
+            document.getElementById('back-btn').onclick = renderHome;
+            document.getElementById('global-filter-btn').onclick = applyGlobalFilters;
+            document.getElementById('global-reset-btn').onclick = resetGlobalFilters;
+            document.getElementById('global-search').onkeyup = e => { if (e.key === 'Enter') applyGlobalFilters(); };
+            document.getElementById('global-sort').onchange = () => { currentSortOrder = document.getElementById('global-sort').value; sortAndRender(); };
             renderReviewList(filteredReviews);
         }
 
-        function renderStats(metrics, color) {
-            return `
-                <div class="stat-item">
-                    <div class="stat-title">Tổng đánh giá</div>
-                    <div class="stat-value" style="color:${color}">${metrics.totalReviews}</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-title">Tỷ lệ hài lòng</div>
-                    <div class="stat-value" style="color:#16a34a">${metrics.satisfactionRate}%</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-title">Hài lòng iOS</div>
-                    <div class="stat-value" style="color:#16a34a">${metrics.iosSatisfaction}%</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-title">Hài lòng Android</div>
-                    <div class="stat-value" style="color:#16a34a">${metrics.androidSatisfaction}%</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-title">Đánh giá trung bình</div>
-                    <div class="stat-value" style="color:#1e3a8a">${metrics.averageRating} ★</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-title">Đánh giá tiêu cực</div>
-                    <div class="stat-value" style="color:#dc2626">${metrics.negativeReviewRate}%</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-title">Danh mục nổi bật</div>
-                    <div class="stat-value" style="color:#1e3a8a">${metrics.topCategory}</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-title">Danh mục thấp nhất</div>
-                    <div class="stat-value" style="color:#dc2626">${metrics.lowestCategory}</div>
-                </div>
-            `;
+        function applyGlobalFilters() {
+            const s = document.getElementById('global-search').value.trim().toLowerCase(), co = document.getElementById('global-company').value, ca = document.getElementById('global-category').value, pl = document.getElementById('global-platform').value, ra = document.getElementById('global-rating').value, se = document.getElementById('global-sentiment').value;
+            filteredReviews = allReviewsCombined.filter(r => { if (s && !((r.text||'').toLowerCase().includes(s) || (r.title||'').toLowerCase().includes(s))) return false; if (co && r.appKey !== co) return false; if (ca && !(r.categories||[]).includes(ca)) return false; if (pl && r.platform !== pl) return false; if (ra && String(r.rating) !== ra) return false; if (se && (!r.sentiment || r.sentiment.label !== se)) return false; return true; });
+            currentDisplayCount = REVIEWS_PER_PAGE; sortAndRender();
         }
 
-        function renderCharts(metrics, color) {
-            charts.ratingChart = new Chart(document.getElementById('ratingChart').getContext('2d'), {
-                type: 'bar',
-                data: {
-                    labels: Object.keys(metrics.ratingsCount),
-                    datasets: [{
-                        label: 'Số lượng đánh giá',
-                        data: Object.values(metrics.ratingsCount),
-                        backgroundColor: color + '80',
-                        borderColor: color,
-                        borderWidth: 1
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    scales: {
-                        y: { beginAtZero: true },
-                        x: { title: { display: true, text: 'Số sao' } }
-                    },
-                    plugins: { legend: { display: false } }
-                }
-            });
+        function resetGlobalFilters() { ['global-search','global-company','global-category','global-platform','global-rating','global-sentiment'].forEach(id => document.getElementById(id).value = ''); document.getElementById('global-sort').value = 'newest'; filteredReviews = allReviewsCombined; currentDisplayCount = REVIEWS_PER_PAGE; currentSortOrder = 'newest'; sortAndRender(); }
 
-            charts.categoryChart = new Chart(document.getElementById('categoryChart').getContext('2d'), {
-                type: 'pie',
-                data: {
-                    labels: Object.keys(metrics.categoryCount),
-                    datasets: [{
-                        label: 'Phân bố danh mục',
-                        data: Object.values(metrics.categoryCount),
-                        backgroundColor: ['#2563eb', '#60a5fa', '#93c5fd', '#dbeafe', '#f3f4f6']
-                    }]
-                },
-                options: { responsive: true, plugins: { legend: { position: 'bottom' } } }
-            });
-
-            charts.deviceChart = new Chart(document.getElementById('deviceChart').getContext('2d'), {
-                type: 'doughnut',
-                data: {
-                    labels: Object.keys(metrics.deviceCount),
-                    datasets: [{
-                        label: 'Thiết bị',
-                        data: Object.values(metrics.deviceCount),
-                        backgroundColor: ['#2563eb', '#60a5fa', '#93c5fd']
-                    }]
-                },
-                options: { responsive: true, plugins: { legend: { position: 'bottom' } } }
-            });
-
-            charts.categoryDistributionChart = new Chart(document.getElementById('categoryDistributionChart').getContext('2d'), {
-                type: 'bar',
-                data: {
-                    labels: Object.keys(metrics.categoryCount),
-                    datasets: [{
-                        label: 'Số lượng theo danh mục',
-                        data: Object.values(metrics.categoryCount),
-                        backgroundColor: color + '80',
-                        borderColor: color,
-                        borderWidth: 1
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    scales: {
-                        y: { beginAtZero: true },
-                        x: { title: { display: true, text: 'Danh mục' } }
-                    },
-                    plugins: { legend: { display: false } }
-                }
-            });
-        }
-
-        function destroyCharts() {
-            Object.values(charts).forEach(chart => { try { chart.destroy(); } catch {} });
-            charts = {};
-        }
-
-        function renderReviewFilters() {
-            const container = document.getElementById('review-filters');
-            if (!container) return;
-            const categories = Array.from(new Set(currentReviews.flatMap(r => r.categories || [])));
-            const devices = Array.from(new Set(currentReviews.map(r => r.platform).filter(Boolean)));
-            const ratings = [5, 4, 3, 2, 1];
-            container.innerHTML = `
-                <div class="review-filters">
-                    <input id="search-input" placeholder="Tìm nội dung..." />
-                    <select id="category-select">
-                        <option value="">Tất cả danh mục</option>
-                        ${categories.map(c => `<option value="${c}">${c}</option>`).join('')}
-                    </select>
-                    <select id="device-select">
-                        <option value="">Tất cả thiết bị</option>
-                        ${devices.map(d => `<option value="${d}">${d}</option>`).join('')}
-                    </select>
-                    <select id="rating-select">
-                        <option value="">Tất cả sao</option>
-                        ${ratings.map(r => `<option value="${r}">${r} ★</option>`).join('')}
-                    </select>
-                    <button id="filter-btn">Lọc</button>
-                    <button id="reset-btn" class="reset-btn">Reset</button>
-                </div>
-            `;
-            document.getElementById('filter-btn').onclick = applyFilters;
-            document.getElementById('reset-btn').onclick = () => {
-                document.getElementById('search-input').value = '';
-                document.getElementById('category-select').value = '';
-                document.getElementById('device-select').value = '';
-                document.getElementById('rating-select').value = '';
-                filteredReviews = currentReviews;
-                renderReviewList(filteredReviews);
-            };
-            document.getElementById('search-input').onkeyup = e => { if (e.key === 'Enter') applyFilters(); };
-        }
-
-        function applyFilters() {
-            const search = document.getElementById('search-input').value.trim().toLowerCase();
-            const category = document.getElementById('category-select').value;
-            const device = document.getElementById('device-select').value;
-            const rating = document.getElementById('rating-select').value;
-            filteredReviews = currentReviews.filter(r => {
-                let ok = true;
-                if (search && !(r.content || '').toLowerCase().includes(search)) ok = false;
-                if (category && !(r.categories || []).includes(category)) ok = false;
-                if (device && r.platform !== device) ok = false;
-                if (rating && String(r.rating) !== rating) ok = false;
-                return ok;
-            });
-            renderReviewList(filteredReviews);
-        }
+        function sortAndRender() { const s = [...filteredReviews]; switch(currentSortOrder) { case 'newest': s.sort((a,b) => new Date(b.date) - new Date(a.date)); break; case 'oldest': s.sort((a,b) => new Date(a.date) - new Date(b.date)); break; case 'highest': s.sort((a,b) => (b.rating||0) - (a.rating||0)); break; case 'lowest': s.sort((a,b) => (a.rating||0) - (b.rating||0)); break; } filteredReviews = s; renderReviewList(filteredReviews); }
 
         function renderReviewList(reviews) {
-            const container = document.getElementById('review-list');
-            if (!container) return;
-            if (!reviews || reviews.length === 0) {
-                container.innerHTML = '<div style="text-align:center;color:#666;">Không có đánh giá phù hợp.</div>';
-                return;
-            }
-            container.innerHTML = reviews.slice(0, 200).map(renderReviewItem).join('') + 
-                (reviews.length > 200 ? `<div style="margin:16px 0;color:#666;text-align:center;">Chỉ hiển thị 200 đánh giá đầu tiên.</div>` : '');
+            const c = document.getElementById('review-list'); if (!c) return;
+            if (!reviews.length) { c.innerHTML = '<div style="text-align:center;color:#6b7280;padding:40px;">Không tìm thấy đánh giá.</div>'; return; }
+            const disp = reviews.slice(0, currentDisplayCount), rem = reviews.length - currentDisplayCount;
+            let h = `<div class="results-info"><span>Hiển thị <strong>${disp.length.toLocaleString()}</strong> / <strong>${reviews.length.toLocaleString()}</strong></span></div>`;
+            h += disp.map(renderReviewItem).join('');
+            if (rem > 0) h += `<button class="load-more-btn" id="load-more">📄 Xem thêm ${Math.min(rem, REVIEWS_PER_PAGE).toLocaleString()} (còn ${rem.toLocaleString()})</button>`;
+            c.innerHTML = h;
+            const btn = document.getElementById('load-more'); if (btn) btn.onclick = () => { currentDisplayCount += REVIEWS_PER_PAGE; renderReviewList(filteredReviews); };
         }
 
         function renderReviewItem(r) {
-            return `
-                <div class="review-item" style="border: 1px solid #e5e7eb; padding: 16px; margin-bottom: 16px; border-radius: 8px; background-color: #ffffff;">
-                    <div class="review-meta" style="display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px;">
-                        <span style="color: #f59e0b; font-size: 18px;">${'★'.repeat(r.rating)}${'☆'.repeat(5 - r.rating)}</span>
-                        <span style="font-weight: 600; color: #1f2937;">${r.platform || ''}</span>
-                        <span style="color: #4b5563; font-style: italic;">${r.author || ''}</span>
-                        <span style="font-size: 16px; font-weight: 500; color: #111827;">${r.title || ''}</span>
-                        <span style="display: flex; flex-wrap: wrap; gap: 8px;">
-                            ${(r.categories || []).map(category => 
-                                `<span style="background-color: #e5e7eb; padding: 4px 8px; border-radius: 12px; font-size: 12px; color: #374151;">${category}</span>`
-                            ).join('')}
-                        </span>
-                        <span style="color: #6b7280; font-size: 12px;">${r.date || ''}</span>
-                    </div>
-                    <div class="review-content" style="color: #374151; line-height: 1.6;">${escapeHTML(r.content || '')}</div>
+            const sl = r.sentiment?.label || 'neutral', sls = {positive:'Tích cực',neutral:'Trung lập',negative:'Tiêu cực'};
+            return `<div class="review-item" style="border-left:4px solid ${r.appColor||'#d1d5db'};">
+                <div class="review-header">
+                    ${r.appName ? `<span class="company-badge" style="background:${r.appColor||'#666'};"><img src="${r.appLogo||DEFAULT_ICON}" onerror="this.src='${DEFAULT_ICON}'"/> ${r.appName}</span>` : ''}
+                    <span class="rating-stars">${'★'.repeat(r.rating||0)}${'☆'.repeat(5-(r.rating||0))}</span>
+                    <span class="sentiment-badge sentiment-${sl}">${sls[sl]}</span>
+                    <span class="platform-badge">${r.platform||'N/A'}</span>
                 </div>
-            `;
+                <div class="review-author">👤 ${r.author||'Ẩn danh'}</div>
+                ${r.title ? `<div class="review-title">📌 ${escapeHTML(r.title)}</div>` : ''}
+                <div class="review-categories">${(r.categories||[]).map(c => `<span class="category-tag">${c}</span>`).join('')}</div>
+                <div class="review-meta"><span>📅 ${formatDate(r.date)}</span>${r.version ? `<span>📱 v${r.version}</span>` : ''}</div>
+                <div class="review-content">${r.text ? escapeHTML(r.text) : '<em style="color:#9ca3af;">Không có nội dung</em>'}</div>
+                ${r.replyText ? `<div class="developer-reply"><div class="developer-reply-header">💬 Phản hồi từ nhà phát triển</div><div style="color:#4b5563;font-size:0.9rem;">${escapeHTML(r.replyText)}</div>${r.replyDate ? `<div style="color:#9ca3af;font-size:0.75rem;margin-top:8px;">${formatDate(r.replyDate)}</div>` : ''}</div>` : ''}
+            </div>`;
         }
 
-        function calculateMetrics(data) {
-            const ratingsCount = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
-            const categoryCount = {};
-            const deviceCount = {};
-            const categoryRatings = {};
-            let positiveReviews = 0;
-            let iosPositive = 0;
-            let iosTotal = 0;
-            let androidPositive = 0;
-            let androidTotal = 0;
-            let totalRatingSum = 0;
-            let negativeReviews = 0;
-            data.forEach(review => {
-                if (review.rating) {
-                    ratingsCount[review.rating]++;
-                    totalRatingSum += review.rating;
-                    if (review.rating <= 2) negativeReviews++;
-                }
-                if (review.platform) {
-                    deviceCount[review.platform] = (deviceCount[review.platform] || 0) + 1;
-                    if (review.platform.toLowerCase() === 'ios') {
-                        iosTotal++;
-                        if (review.rating >= 4) iosPositive++;
-                    } else if (review.platform.toLowerCase() === 'android') {
-                        androidTotal++;
-                        if (review.rating >= 4) androidPositive++;
-                    }
-                }
-                if (review.categories) {
-                    review.categories.forEach(category => {
-                        categoryCount[category] = (categoryCount[category] || 0) + 1;
-                        if (!categoryRatings[category]) {
-                            categoryRatings[category] = { sum: 0, count: 0 };
-                        }
-                        categoryRatings[category].sum += review.rating;
-                        categoryRatings[category].count++;
-                    });
-                }
-                if (review.rating >= 4) positiveReviews++;
-            });
-            return {
-                ratingsCount,
-                categoryCount,
-                deviceCount,
-                totalReviews: data.length,
-                satisfactionRate: ((positiveReviews / data.length) * 100).toFixed(2),
-                iosSatisfaction: iosTotal ? ((iosPositive / iosTotal) * 100).toFixed(2) : 0,
-                androidSatisfaction: androidTotal ? ((androidPositive / androidTotal) * 100).toFixed(2) : 0,
-                averageRating: (totalRatingSum / data.length).toFixed(1),
-                negativeReviewRate: ((negativeReviews / data.length) * 100).toFixed(2),
-                topCategory: Object.entries(categoryCount).reduce((a, b) => a[1] > b[1] ? a : b, ['', 0])[0] || 'N/A',
-                lowestCategory: Object.entries(categoryRatings).reduce((a, b) => {
-                    const avgA = a[1].sum / a[1].count;
-                    const avgB = b[1].sum / b[1].count;
-                    return avgA < avgB ? a : b;
-                }, ['', { sum: 0, count: 0 }])[0] || 'N/A'
-            };
+        function loadAppDashboard(app) {
+            currentApp = app; currentDisplayCount = REVIEWS_PER_PAGE; isAllReviewsMode = false; destroyCharts();
+            document.getElementById('root').innerHTML = `<div class="container" style="padding-top:32px;"><button class="back-btn" id="back-btn">← Quay lại</button><div class="loading"><div class="loading-spinner"></div><p>Đang tải...</p></div></div>`;
+            document.getElementById('back-btn').onclick = renderHome;
+            const ck = getCacheKey(app.key);
+            if (cache[ck] && isCacheValid(cache[ck])) { currentReviews = cache[ck].data; filteredReviews = cache[ck].data; renderDashboard(app, cache[ck].data); return; }
+            fetch(`./${app.json}`).then(r => r.ok ? r.json() : Promise.reject()).then(d => { cache[ck] = {data:d, timestamp:new Date()}; currentReviews = d; filteredReviews = d; renderDashboard(app, d); }).catch(() => { document.querySelector('.loading').innerHTML = '<div style="color:white;">Không có dữ liệu.</div>'; });
         }
 
-        function escapeHTML(str) {
-            return str.replace(/[&<>'"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&apos;', '"': '&quot;' }[c]));
+        function renderDashboard(app, reviews) {
+            const m = calculateMetrics(reviews);
+            document.getElementById('root').innerHTML = `
+                <div class="container" style="padding-top:32px;">
+                    <button class="back-btn" id="back-btn">← Quay lại</button>
+                    <div class="dashboard-header">
+                        <img src="${app.logo||DEFAULT_ICON}" class="dashboard-logo" onerror="this.src='${DEFAULT_ICON}'"/>
+                        <div><h2 style="color:${app.color};font-size:1.5rem;font-weight:700;">${app.name}</h2><p style="color:#6b7280;">Phân tích đánh giá người dùng</p></div>
+                    </div>
+                    <div class="card"><div class="card-header">📊 Thống kê</div><div class="card-body"><div class="stats-grid">
+                        <div class="stat-card"><div class="stat-card-value" style="color:${app.color}">${formatNumber(m.totalReviews)}</div><div class="stat-card-label">Tổng đánh giá</div></div>
+                        <div class="stat-card"><div class="stat-card-value" style="color:#16a34a">${m.satisfactionRate}%</div><div class="stat-card-label">Hài lòng</div></div>
+                        <div class="stat-card"><div class="stat-card-value" style="color:#eab308">${m.averageRating}★</div><div class="stat-card-label">Điểm TB</div></div>
+                        <div class="stat-card"><div class="stat-card-value" style="color:#ef4444">${m.negativeReviewRate}%</div><div class="stat-card-label">Tiêu cực</div></div>
+                    </div></div></div>
+                    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;">
+                        <div class="card"><div class="card-header">⭐ Phân bố</div><div class="card-body"><div class="chart-wrapper"><canvas id="ratingChart"></canvas></div></div></div>
+                        <div class="card"><div class="card-header">📱 Thiết bị</div><div class="card-body"><div class="chart-wrapper"><canvas id="deviceChart"></canvas></div></div></div>
+                    </div>
+                    <div class="card"><div class="card-header">📂 Danh mục</div><div class="card-body"><div class="chart-wrapper"><canvas id="categoryChart"></canvas></div></div></div>
+                    <div class="filter-section">
+                        <div class="filter-title">🔎 Lọc</div>
+                        <div class="filter-row">
+                            <input type="text" id="search-input" class="filter-input" placeholder="Tìm kiếm..."/>
+                            <select id="category-select" class="filter-select"><option value="">Tất cả danh mục</option>${Object.keys(m.categoryCount).map(c => `<option value="${c}">${c}</option>`).join('')}</select>
+                            <select id="device-select" class="filter-select"><option value="">Tất cả thiết bị</option>${Object.keys(m.deviceCount).map(d => `<option value="${d}">${d}</option>`).join('')}</select>
+                            <select id="rating-select" class="filter-select"><option value="">Tất cả sao</option>${[5,4,3,2,1].map(r => `<option value="${r}">${r} ★</option>`).join('')}</select>
+                        </div>
+                        <div style="margin-top:12px;display:flex;gap:12px;"><button class="btn btn-primary" id="filter-btn">🔍 Lọc</button><button class="btn btn-secondary" id="reset-btn">↺ Đặt lại</button></div>
+                    </div>
+                    <div class="card"><div class="card-header">📝 Đánh giá</div><div class="card-body"><div id="review-list"></div></div></div>
+                </div>`;
+            document.getElementById('back-btn').onclick = renderHome;
+            document.getElementById('filter-btn').onclick = applyFilters;
+            document.getElementById('reset-btn').onclick = () => { ['search-input','category-select','device-select','rating-select'].forEach(id => document.getElementById(id).value = ''); filteredReviews = currentReviews; currentDisplayCount = REVIEWS_PER_PAGE; renderReviewList(filteredReviews); };
+            renderCharts(m, app.color);
+            filteredReviews = filteredReviews.map(r => ({...r, appName: app.name, appColor: app.color, appLogo: app.logo}));
+            renderReviewList(filteredReviews);
+        }
+
+        function applyFilters() {
+            const s = document.getElementById('search-input').value.trim().toLowerCase(), ca = document.getElementById('category-select').value, de = document.getElementById('device-select').value, ra = document.getElementById('rating-select').value;
+            filteredReviews = currentReviews.filter(r => { if (s && !((r.text||'').toLowerCase().includes(s) || (r.title||'').toLowerCase().includes(s))) return false; if (ca && !(r.categories||[]).includes(ca)) return false; if (de && r.platform !== de) return false; if (ra && String(r.rating) !== ra) return false; return true; }).map(r => ({...r, appName: currentApp.name, appColor: currentApp.color, appLogo: currentApp.logo}));
+            currentDisplayCount = REVIEWS_PER_PAGE; renderReviewList(filteredReviews);
+        }
+
+        function renderCharts(m, color) {
+            charts.ratingChart = new Chart(document.getElementById('ratingChart').getContext('2d'), { type: 'bar', data: { labels: Object.keys(m.ratingsCount), datasets: [{data: Object.values(m.ratingsCount), backgroundColor: color+'80', borderColor: color, borderWidth: 2}] }, options: { responsive: true, plugins: {legend:{display:false}}, scales: {y:{beginAtZero:true}} } });
+            charts.deviceChart = new Chart(document.getElementById('deviceChart').getContext('2d'), { type: 'doughnut', data: { labels: Object.keys(m.deviceCount), datasets: [{data: Object.values(m.deviceCount), backgroundColor: ['#6366f1','#22d3ee','#f472b6']}] }, options: { responsive: true, plugins: {legend:{position:'bottom'}} } });
+            charts.categoryChart = new Chart(document.getElementById('categoryChart').getContext('2d'), { type: 'bar', data: { labels: Object.keys(m.categoryCount), datasets: [{data: Object.values(m.categoryCount), backgroundColor: color+'80', borderColor: color, borderWidth: 2}] }, options: { responsive: true, plugins: {legend:{display:false}}, scales: {y:{beginAtZero:true}} } });
+        }
+
+        function destroyCharts() { Object.values(charts).forEach(c => { try { c.destroy(); } catch {} }); charts = {}; }
+
+        function calculateMetrics(d) {
+            const rc = {1:0,2:0,3:0,4:0,5:0}, cc = {}, dc = {}; let p = 0, tr = 0, n = 0;
+            d.forEach(r => { if (r.rating) { rc[r.rating]++; tr += r.rating; if (r.rating <= 2) n++; if (r.rating >= 4) p++; } if (r.platform) dc[r.platform] = (dc[r.platform]||0)+1; (r.categories||[]).forEach(c => cc[c] = (cc[c]||0)+1); });
+            return { ratingsCount: rc, categoryCount: cc, deviceCount: dc, totalReviews: d.length, satisfactionRate: d.length ? ((p/d.length)*100).toFixed(1) : 0, averageRating: d.length ? (tr/d.length).toFixed(1) : '0.0', negativeReviewRate: d.length ? ((n/d.length)*100).toFixed(1) : 0 };
         }
 
         document.addEventListener('DOMContentLoaded', renderHome);
