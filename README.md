@@ -34,10 +34,10 @@ Website tổng hợp và phân tích đánh giá người dùng từ các ứng 
 - **Lọc theo cảm xúc**: Tích cực, Trung lập, hoặc Tiêu cực
 
 ### 📈 Phân tích chi tiết
-- Biểu đồ phân bố đánh giá theo số sao
-- Thống kê đánh giá theo thiết bị (Android/iOS)
-- Phân tích đánh giá theo danh mục
-- Xem phản hồi từ nhà phát triển
+- Xem thông tin tác giả đánh giá
+- Sắp xếp theo thời gian (mới nhất, cũ nhất)
+- Sắp xếp theo số sao (cao nhất, thấp nhất)
+- Xem phản hồi từ nhà phát triển ứng dụng
 
 ## 🚀 Cách sử dụng
 
