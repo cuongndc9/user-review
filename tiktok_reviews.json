@@ -16,8 +16,7 @@
       "label": "negative"
     },
     "categories": [
-      "account",
-      "engagement"
+      "general"
     ]
   },
   {
@@ -77,7 +76,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -137,7 +136,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -257,7 +256,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -397,8 +396,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs",
-      "update"
+      "general"
     ]
   },
   {
@@ -458,7 +456,7 @@
       "label": "positive"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -518,7 +516,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "mat_tai_khoan"
     ]
   },
   {
@@ -598,7 +596,7 @@
       "label": "negative"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -618,7 +616,7 @@
       "label": "negative"
     },
     "categories": [
-      "content"
+      "general"
     ]
   },
   {
@@ -678,7 +676,7 @@
       "label": "negative"
     },
     "categories": [
-      "general"
+      "video_bi_xoa"
     ]
   },
   {
@@ -738,7 +736,7 @@
       "label": "neutral"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -818,7 +816,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -1178,7 +1176,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "app_cham_lag"
     ]
   },
   {
@@ -1378,7 +1376,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -1418,7 +1416,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -1718,7 +1716,7 @@
       "label": "positive"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -1778,7 +1776,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -1798,7 +1796,7 @@
       "label": "positive"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -1818,7 +1816,7 @@
       "label": "neutral"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -1878,7 +1876,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -2138,7 +2136,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "app_cham_lag"
     ]
   },
   {
@@ -2158,7 +2156,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -2198,7 +2196,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -2298,7 +2296,7 @@
       "label": "negative"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -2318,7 +2316,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -2358,7 +2356,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -2378,7 +2376,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -2518,7 +2516,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -2558,7 +2556,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -2734,12 +2732,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -0.6,
+      "score": -0.5,
       "label": "negative"
     },
     "categories": [
-      "ui",
-      "account"
+      "general"
     ]
   },
   {
@@ -2759,7 +2756,7 @@
       "label": "negative"
     },
     "categories": [
-      "general"
+      "video_bi_xoa"
     ]
   },
   {
@@ -2939,7 +2936,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -2979,8 +2976,7 @@
       "label": "neutral"
     },
     "categories": [
-      "ui",
-      "bugs"
+      "general"
     ]
   },
   {
@@ -3000,7 +2996,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -3060,8 +3056,7 @@
       "label": "neutral"
     },
     "categories": [
-      "bugs",
-      "account"
+      "general"
     ]
   },
   {
@@ -3081,7 +3076,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -3141,7 +3136,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -3181,7 +3176,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -3241,7 +3236,8 @@
       "label": "negative"
     },
     "categories": [
-      "features"
+      "thuat_toan_sai",
+      "mat_tai_khoan"
     ]
   },
   {
@@ -3281,7 +3277,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -3321,7 +3317,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -3497,12 +3493,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
-      "bugs",
-      "account"
+      "general"
     ]
   },
   {
@@ -3582,7 +3577,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -3842,7 +3837,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -3882,7 +3877,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -3902,7 +3897,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "dang_nhap_loi"
     ]
   },
   {
@@ -3962,7 +3957,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "app_cham_lag"
     ]
   },
   {
@@ -4402,7 +4397,7 @@
       "label": "positive"
     },
     "categories": [
-      "content"
+      "general"
     ]
   },
   {
@@ -4502,7 +4497,7 @@
       "label": "positive"
     },
     "categories": [
-      "notification"
+      "general"
     ]
   },
   {
@@ -4582,7 +4577,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -4682,7 +4677,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -4742,7 +4737,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -4802,7 +4797,7 @@
       "label": "negative"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -4882,8 +4877,7 @@
       "label": "negative"
     },
     "categories": [
-      "account",
-      "update"
+      "general"
     ]
   },
   {
@@ -4943,7 +4937,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -4979,7 +4973,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0,
+      "score": 0.1,
       "label": "neutral"
     },
     "categories": [
@@ -5243,7 +5237,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -5403,7 +5397,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "video_khong_tai"
     ]
   },
   {
@@ -5623,7 +5617,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -5883,7 +5877,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -5943,7 +5937,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -6063,9 +6057,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance",
-      "bugs",
-      "update"
+      "general"
     ]
   },
   {
@@ -6085,7 +6077,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -6205,7 +6197,7 @@
       "label": "negative"
     },
     "categories": [
-      "security"
+      "general"
     ]
   },
   {
@@ -6265,7 +6257,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -6405,7 +6397,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -6445,8 +6437,7 @@
       "label": "neutral"
     },
     "categories": [
-      "bugs",
-      "update"
+      "general"
     ]
   },
   {
@@ -6606,7 +6597,7 @@
       "label": "negative"
     },
     "categories": [
-      "general"
+      "video_bi_xoa"
     ]
   },
   {
@@ -6846,7 +6837,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "mat_tai_khoan"
     ]
   },
   {
@@ -6906,7 +6897,7 @@
       "label": "negative"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -7106,7 +7097,7 @@
       "label": "positive"
     },
     "categories": [
-      "security"
+      "general"
     ]
   },
   {
@@ -7122,11 +7113,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -0.1,
+      "score": 0,
       "label": "neutral"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -7286,7 +7277,7 @@
       "label": "negative"
     },
     "categories": [
-      "general"
+      "video_bi_xoa"
     ]
   },
   {
@@ -7326,7 +7317,7 @@
       "label": "negative"
     },
     "categories": [
-      "general"
+      "mat_tai_khoan"
     ]
   },
   {
@@ -7346,7 +7337,7 @@
       "label": "negative"
     },
     "categories": [
-      "content"
+      "general"
     ]
   },
   {
@@ -7426,7 +7417,7 @@
       "label": "negative"
     },
     "categories": [
-      "security"
+      "general"
     ]
   },
   {
@@ -7646,7 +7637,7 @@
       "label": "negative"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -8086,7 +8077,7 @@
       "label": "neutral"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -8226,7 +8217,7 @@
       "label": "neutral"
     },
     "categories": [
-      "notification"
+      "general"
     ]
   },
   {
@@ -8306,7 +8297,7 @@
       "label": "negative"
     },
     "categories": [
-      "security"
+      "general"
     ]
   },
   {
@@ -8422,11 +8413,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -0.9,
+      "score": -1,
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -8486,8 +8477,7 @@
       "label": "positive"
     },
     "categories": [
-      "bugs",
-      "update"
+      "general"
     ]
   },
   {
@@ -8723,7 +8713,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0,
+      "score": 0.1,
       "label": "neutral"
     },
     "categories": [
@@ -8767,7 +8757,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -8827,7 +8817,7 @@
       "label": "negative"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -8843,11 +8833,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -8867,8 +8857,7 @@
       "label": "neutral"
     },
     "categories": [
-      "content",
-      "engagement"
+      "general"
     ]
   },
   {
@@ -8908,7 +8897,7 @@
       "label": "negative"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -8984,7 +8973,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -9208,7 +9197,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -9268,7 +9257,7 @@
       "label": "positive"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -9368,7 +9357,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -9688,7 +9677,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -9748,7 +9737,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -9808,7 +9797,7 @@
       "label": "neutral"
     },
     "categories": [
-      "notification"
+      "general"
     ]
   },
   {
@@ -9988,8 +9977,7 @@
       "label": "negative"
     },
     "categories": [
-      "features",
-      "update"
+      "general"
     ]
   },
   {
@@ -10009,7 +9997,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -10289,7 +10277,7 @@
       "label": "negative"
     },
     "categories": [
-      "content"
+      "general"
     ]
   },
   {
@@ -10369,7 +10357,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -10469,7 +10457,7 @@
       "label": "negative"
     },
     "categories": [
-      "security"
+      "general"
     ]
   },
   {
@@ -10529,7 +10517,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -10569,7 +10557,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -10649,7 +10637,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -10665,14 +10653,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
-      "security",
-      "notification",
-      "account",
-      "update"
+      "general"
     ]
   },
   {
@@ -10852,7 +10837,7 @@
       "label": "neutral"
     },
     "categories": [
-      "ads"
+      "general"
     ]
   },
   {
@@ -10908,11 +10893,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
-      "content"
+      "general"
     ]
   },
   {
@@ -10928,7 +10913,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -0.9,
+      "score": -0.8,
       "label": "negative"
     },
     "categories": [
@@ -11032,7 +11017,7 @@
       "label": "neutral"
     },
     "categories": [
-      "notification"
+      "general"
     ]
   },
   {
@@ -11052,7 +11037,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -11072,7 +11057,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -11092,7 +11077,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -11448,7 +11433,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0,
+      "score": 0.1,
       "label": "neutral"
     },
     "categories": [
@@ -11488,7 +11473,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0,
+      "score": 0.1,
       "label": "neutral"
     },
     "categories": [
@@ -11632,7 +11617,7 @@
       "label": "negative"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -11752,7 +11737,7 @@
       "label": "neutral"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -11872,7 +11857,7 @@
       "label": "positive"
     },
     "categories": [
-      "general"
+      "mat_tai_khoan"
     ]
   },
   {
@@ -11952,7 +11937,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -11992,7 +11977,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -12032,7 +12017,7 @@
       "label": "positive"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -12072,7 +12057,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -12132,7 +12117,7 @@
       "label": "positive"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -12232,7 +12217,7 @@
       "label": "negative"
     },
     "categories": [
-      "content"
+      "general"
     ]
   },
   {
@@ -12292,7 +12277,7 @@
       "label": "positive"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -12332,9 +12317,8 @@
       "label": "neutral"
     },
     "categories": [
-      "performance",
-      "features",
-      "content"
+      "app_cham_lag",
+      "video_khong_tai"
     ]
   },
   {
@@ -12554,7 +12538,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "mat_tai_khoan"
     ]
   },
   {
@@ -12654,7 +12638,7 @@
       "label": "negative"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -12694,7 +12678,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -12934,7 +12918,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -13114,8 +13098,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance",
-      "features"
+      "general"
     ]
   },
   {
@@ -13135,7 +13118,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -13215,7 +13198,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "mat_tai_khoan"
     ]
   },
   {
@@ -13495,7 +13478,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "dang_nhap_loi"
     ]
   },
   {
@@ -13575,7 +13558,7 @@
       "label": "positive"
     },
     "categories": [
-      "general"
+      "nghien_app"
     ]
   },
   {
@@ -13595,8 +13578,7 @@
       "label": "negative"
     },
     "categories": [
-      "notification",
-      "account"
+      "general"
     ]
   },
   {
@@ -13636,7 +13618,7 @@
       "label": "negative"
     },
     "categories": [
-      "notification"
+      "general"
     ]
   },
   {
@@ -13656,7 +13638,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -13696,7 +13678,7 @@
       "label": "neutral"
     },
     "categories": [
-      "account"
+      "dang_nhap_loi"
     ]
   },
   {
@@ -13776,7 +13758,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "app_cham_lag"
     ]
   },
   {
@@ -13816,7 +13798,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -13896,7 +13878,7 @@
       "label": "negative"
     },
     "categories": [
-      "security"
+      "general"
     ]
   },
   {
@@ -13996,7 +13978,7 @@
       "label": "positive"
     },
     "categories": [
-      "security"
+      "general"
     ]
   },
   {
@@ -14016,7 +13998,7 @@
       "label": "negative"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -14072,7 +14054,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
@@ -14112,7 +14094,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
@@ -14196,7 +14178,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -14256,7 +14238,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -14416,7 +14398,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -14456,7 +14438,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -14656,7 +14638,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -14912,13 +14894,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -0.4,
+      "score": -0.3,
       "label": "negative"
     },
     "categories": [
-      "update",
-      "engagement",
-      "ads"
+      "video_bi_xoa"
     ]
   },
   {
@@ -15478,8 +15458,7 @@
       "label": "positive"
     },
     "categories": [
-      "update",
-      "engagement"
+      "general"
     ]
   },
   {
@@ -15699,7 +15678,7 @@
       "label": "negative"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -15979,7 +15958,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -16159,7 +16138,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -16419,7 +16398,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -16699,7 +16678,7 @@
       "label": "positive"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -16739,7 +16718,7 @@
       "label": "negative"
     },
     "categories": [
-      "ads"
+      "general"
     ]
   },
   {
@@ -16839,7 +16818,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -16979,7 +16958,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "dang_nhap_loi"
     ]
   },
   {
@@ -17035,7 +17014,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -17299,7 +17278,7 @@
       "label": "negative"
     },
     "categories": [
-      "ads"
+      "general"
     ]
   },
   {
@@ -17335,12 +17314,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0,
+      "score": 0.1,
       "label": "neutral"
     },
     "categories": [
-      "bugs",
-      "update"
+      "general"
     ]
   },
   {
@@ -17500,7 +17478,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -17540,7 +17518,7 @@
       "label": "negative"
     },
     "categories": [
-      "security"
+      "general"
     ]
   },
   {
@@ -17560,7 +17538,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -17580,7 +17558,7 @@
       "label": "positive"
     },
     "categories": [
-      "ads"
+      "nghien_app"
     ]
   },
   {
@@ -18020,7 +17998,7 @@
       "label": "negative"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -18280,7 +18258,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -18440,7 +18418,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -18640,7 +18618,7 @@
       "label": "positive"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -18720,7 +18698,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -18840,8 +18818,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs",
-      "account"
+      "general"
     ]
   },
   {
@@ -18881,7 +18858,7 @@
       "label": "negative"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -19021,7 +18998,7 @@
       "label": "positive"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -19061,7 +19038,7 @@
       "label": "negative"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -19157,11 +19134,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0,
+      "score": 0.1,
       "label": "neutral"
     },
     "categories": [
-      "content"
+      "general"
     ]
   },
   {
@@ -19181,8 +19158,7 @@
       "label": "positive"
     },
     "categories": [
-      "bugs",
-      "content"
+      "general"
     ]
   },
   {
@@ -19242,8 +19218,7 @@
       "label": "positive"
     },
     "categories": [
-      "ui",
-      "features"
+      "general"
     ]
   },
   {
@@ -19343,7 +19318,7 @@
       "label": "positive"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -19483,7 +19458,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -19683,7 +19658,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -19863,7 +19838,7 @@
       "label": "neutral"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -19903,7 +19878,7 @@
       "label": "positive"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -20103,7 +20078,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -20263,7 +20238,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -20283,7 +20258,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -20303,7 +20278,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -20743,7 +20718,7 @@
       "label": "positive"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -20803,7 +20778,7 @@
       "label": "negative"
     },
     "categories": [
-      "ads"
+      "quang_cao_nhieu"
     ]
   },
   {
@@ -21023,7 +20998,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -21083,7 +21058,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "dang_nhap_loi"
     ]
   },
   {
@@ -21119,11 +21094,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -21163,7 +21138,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -21243,7 +21218,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -21603,7 +21578,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -21663,7 +21638,7 @@
       "label": "neutral"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -21743,7 +21718,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -22103,7 +22078,7 @@
       "label": "negative"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -22363,7 +22338,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -22583,7 +22558,7 @@
       "label": "positive"
     },
     "categories": [
-      "performance"
+      "app_cham_lag"
     ]
   },
   {
@@ -22683,7 +22658,7 @@
       "label": "negative"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -22723,7 +22698,7 @@
       "label": "neutral"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -23063,7 +23038,7 @@
       "label": "neutral"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -23663,7 +23638,7 @@
       "label": "negative"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -23683,7 +23658,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -23943,7 +23918,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -23963,7 +23938,7 @@
       "label": "positive"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -24063,7 +24038,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -24119,7 +24094,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -0.9,
+      "score": -0.8,
       "label": "negative"
     },
     "categories": [
@@ -24163,7 +24138,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -24343,7 +24318,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -24363,7 +24338,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -24423,7 +24398,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -24903,7 +24878,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -25043,8 +25018,7 @@
       "label": "negative"
     },
     "categories": [
-      "security",
-      "account"
+      "general"
     ]
   },
   {
@@ -25184,7 +25158,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -25220,7 +25194,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.4,
       "label": "positive"
     },
     "categories": [
@@ -25484,7 +25458,7 @@
       "label": "negative"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -25624,7 +25598,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -25864,7 +25838,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -25924,7 +25898,7 @@
       "label": "positive"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -26020,7 +25994,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.1,
+      "score": 0.2,
       "label": "neutral"
     },
     "categories": [
@@ -26744,8 +26718,7 @@
       "label": "negative"
     },
     "categories": [
-      "features",
-      "bugs"
+      "general"
     ]
   },
   {
@@ -26885,7 +26858,7 @@
       "label": "negative"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -27245,8 +27218,7 @@
       "label": "positive"
     },
     "categories": [
-      "ui",
-      "account"
+      "general"
     ]
   },
   {
@@ -27446,7 +27418,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -27706,7 +27678,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -27786,7 +27758,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -27826,7 +27798,7 @@
       "label": "negative"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -27866,7 +27838,7 @@
       "label": "positive"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -28026,8 +27998,7 @@
       "label": "positive"
     },
     "categories": [
-      "bugs",
-      "notification"
+      "general"
     ]
   },
   {
@@ -28447,7 +28418,7 @@
       "label": "negative"
     },
     "categories": [
-      "general"
+      "mat_tai_khoan"
     ]
   },
   {
@@ -28567,7 +28538,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -28727,7 +28698,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -28747,7 +28718,7 @@
       "label": "positive"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -28807,7 +28778,7 @@
       "label": "positive"
     },
     "categories": [
-      "general"
+      "nghien_app"
     ]
   },
   {
@@ -29067,7 +29038,7 @@
       "label": "negative"
     },
     "categories": [
-      "content"
+      "nghien_app"
     ]
   },
   {
@@ -29223,7 +29194,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
@@ -29487,7 +29458,7 @@
       "label": "negative"
     },
     "categories": [
-      "ads"
+      "general"
     ]
   },
   {
@@ -29607,7 +29578,7 @@
       "label": "neutral"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -29627,7 +29598,7 @@
       "label": "positive"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -29907,7 +29878,7 @@
       "label": "positive"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -30347,7 +30318,7 @@
       "label": "positive"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -30387,7 +30358,7 @@
       "label": "positive"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -30547,7 +30518,7 @@
       "label": "positive"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -30787,9 +30758,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance",
-      "bugs",
-      "engagement"
+      "general"
     ]
   },
   {
@@ -30989,7 +30958,7 @@
       "label": "neutral"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -31049,7 +31018,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -31089,7 +31058,7 @@
       "label": "negative"
     },
     "categories": [
-      "general"
+      "livestream_loi"
     ]
   },
   {
@@ -31305,7 +31274,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -31665,7 +31634,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0,
+      "score": 0.1,
       "label": "neutral"
     },
     "categories": [
@@ -31785,7 +31754,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
@@ -32209,7 +32178,7 @@
       "label": "negative"
     },
     "categories": [
-      "content"
+      "general"
     ]
   },
   {
@@ -32229,7 +32198,7 @@
       "label": "negative"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -32329,7 +32298,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -32529,7 +32498,7 @@
       "label": "negative"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -32569,7 +32538,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -32689,7 +32658,7 @@
       "label": "negative"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -32845,7 +32814,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
@@ -32889,7 +32858,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -33029,7 +32998,7 @@
       "label": "negative"
     },
     "categories": [
-      "general"
+      "nghien_app"
     ]
   },
   {
@@ -34209,7 +34178,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -34565,7 +34534,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 1,
+      "score": 0.9,
       "label": "positive"
     },
     "categories": [
@@ -34809,7 +34778,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -34849,9 +34818,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance",
-      "features",
-      "bugs"
+      "general"
     ]
   },
   {
@@ -34987,7 +34954,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -35027,11 +34994,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.1,
+      "score": 0.2,
       "label": "neutral"
     },
     "categories": [
-      "content"
+      "app_cham_lag"
     ]
   },
   {
@@ -35091,7 +35058,7 @@
       "label": "positive"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -35227,11 +35194,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -0.4,
+      "score": -0.3,
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -36207,7 +36174,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -36251,7 +36218,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -36371,7 +36338,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -36611,7 +36578,7 @@
       "label": "neutral"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -36671,7 +36638,7 @@
       "label": "neutral"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -36747,7 +36714,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -36827,7 +36794,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -0.9,
+      "score": -0.8,
       "label": "negative"
     },
     "categories": [
@@ -37011,7 +36978,7 @@
       "label": "negative"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -37247,7 +37214,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.4,
+      "score": 0.5,
       "label": "positive"
     },
     "categories": [
@@ -37311,7 +37278,7 @@
       "label": "positive"
     },
     "categories": [
-      "general"
+      "livestream_loi"
     ]
   },
   {
@@ -37391,7 +37358,7 @@
       "label": "positive"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -37471,8 +37438,7 @@
       "label": "neutral"
     },
     "categories": [
-      "features",
-      "engagement"
+      "general"
     ]
   },
   {
@@ -37592,7 +37558,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -37848,7 +37814,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.1,
+      "score": 0.2,
       "label": "neutral"
     },
     "categories": [
@@ -38192,7 +38158,7 @@
       "label": "positive"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -38648,11 +38614,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0,
+      "score": 0.1,
       "label": "neutral"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -38792,7 +38758,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -38932,7 +38898,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -39392,7 +39358,7 @@
       "label": "positive"
     },
     "categories": [
-      "ads"
+      "general"
     ]
   },
   {
@@ -39712,7 +39678,7 @@
       "label": "negative"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -39768,7 +39734,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -39992,7 +39958,7 @@
       "label": "negative"
     },
     "categories": [
-      "general"
+      "nghien_app"
     ]
   },
   {
@@ -40152,7 +40118,7 @@
       "label": "positive"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -40312,7 +40278,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -40432,7 +40398,7 @@
       "label": "negative"
     },
     "categories": [
-      "engagement"
+      "video_bi_xoa"
     ]
   },
   {
@@ -40492,7 +40458,7 @@
       "label": "positive"
     },
     "categories": [
-      "general"
+      "video_bi_xoa"
     ]
   },
   {
@@ -40512,7 +40478,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -40732,7 +40698,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -40752,7 +40718,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -41088,7 +41054,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
@@ -41472,7 +41438,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -41512,7 +41478,7 @@
       "label": "positive"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -41728,7 +41694,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
@@ -41912,7 +41878,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -41992,7 +41958,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -42172,7 +42138,7 @@
       "label": "positive"
     },
     "categories": [
-      "security"
+      "general"
     ]
   },
   {
@@ -42412,7 +42378,7 @@
       "label": "negative"
     },
     "categories": [
-      "ads"
+      "general"
     ]
   },
   {
@@ -42472,7 +42438,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -42652,7 +42618,7 @@
       "label": "positive"
     },
     "categories": [
-      "general"
+      "video_bi_xoa"
     ]
   },
   {
@@ -42952,7 +42918,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -43812,7 +43778,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -44308,7 +44274,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -44572,7 +44538,7 @@
       "label": "positive"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -44672,7 +44638,7 @@
       "label": "positive"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -44772,7 +44738,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -44828,7 +44794,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.6,
+      "score": 0.7,
       "label": "positive"
     },
     "categories": [
@@ -45232,7 +45198,7 @@
       "label": "negative"
     },
     "categories": [
-      "security"
+      "general"
     ]
   },
   {
@@ -45312,7 +45278,7 @@
       "label": "positive"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -45352,7 +45318,7 @@
       "label": "positive"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -45672,7 +45638,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -46068,12 +46034,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -0.6,
+      "score": -0.5,
       "label": "negative"
     },
     "categories": [
-      "features",
-      "update"
+      "general"
     ]
   },
   {
@@ -46253,8 +46218,7 @@
       "label": "positive"
     },
     "categories": [
-      "performance",
-      "features"
+      "general"
     ]
   },
   {
@@ -46354,7 +46318,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -47154,7 +47118,7 @@
       "label": "positive"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -47234,7 +47198,7 @@
       "label": "neutral"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -47274,8 +47238,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs",
-      "security"
+      "general"
     ]
   },
   {
@@ -47355,7 +47318,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -47575,7 +47538,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -47735,7 +47698,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -48055,7 +48018,7 @@
       "label": "positive"
     },
     "categories": [
-      "security"
+      "general"
     ]
   },
   {
@@ -48095,7 +48058,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -48935,7 +48898,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -49155,7 +49118,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -49295,8 +49258,7 @@
       "label": "negative"
     },
     "categories": [
-      "features",
-      "account"
+      "general"
     ]
   },
   {
@@ -49316,7 +49278,7 @@
       "label": "positive"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -49576,7 +49538,7 @@
       "label": "positive"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -49596,7 +49558,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -49896,8 +49858,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs",
-      "update"
+      "general"
     ]
   },
   {
@@ -50077,8 +50038,7 @@
       "label": "neutral"
     },
     "categories": [
-      "features",
-      "update"
+      "general"
     ]
   },
   {
@@ -50198,7 +50158,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -50598,7 +50558,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -50718,8 +50678,7 @@
       "label": "positive"
     },
     "categories": [
-      "security",
-      "account"
+      "general"
     ]
   },
   {
@@ -50735,7 +50694,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.9,
+      "score": 1,
       "label": "positive"
     },
     "categories": [
@@ -50859,8 +50818,7 @@
       "label": "neutral"
     },
     "categories": [
-      "ui",
-      "bugs"
+      "general"
     ]
   },
   {
@@ -51320,7 +51278,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -51360,7 +51318,7 @@
       "label": "positive"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -51460,8 +51418,7 @@
       "label": "positive"
     },
     "categories": [
-      "account",
-      "update"
+      "general"
     ]
   },
   {
@@ -51741,7 +51698,7 @@
       "label": "positive"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -51781,7 +51738,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "dang_nhap_loi"
     ]
   },
   {
@@ -52481,7 +52438,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -52521,7 +52478,7 @@
       "label": "negative"
     },
     "categories": [
-      "ads"
+      "general"
     ]
   },
   {
@@ -52841,7 +52798,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -53061,7 +53018,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -53077,7 +53034,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.9,
+      "score": 1,
       "label": "positive"
     },
     "categories": [
@@ -53157,7 +53114,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
@@ -53401,7 +53358,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -53637,7 +53594,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
@@ -53777,7 +53734,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
@@ -54061,7 +54018,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -54517,7 +54474,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
@@ -54597,7 +54554,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
@@ -55001,8 +54958,7 @@
       "label": "neutral"
     },
     "categories": [
-      "security",
-      "account"
+      "general"
     ]
   },
   {
@@ -55102,7 +55058,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -55582,8 +55538,7 @@
       "label": "positive"
     },
     "categories": [
-      "bugs",
-      "account"
+      "mat_tai_khoan"
     ]
   },
   {
@@ -55683,7 +55638,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -55843,7 +55798,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -55903,7 +55858,7 @@
       "label": "positive"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -56083,7 +56038,7 @@
       "label": "positive"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -56503,7 +56458,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "dang_nhap_loi"
     ]
   },
   {
@@ -56643,7 +56598,7 @@
       "label": "positive"
     },
     "categories": [
-      "general"
+      "video_khong_tai"
     ]
   },
   {
@@ -56723,7 +56678,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -57383,8 +57338,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance",
-      "account"
+      "general"
     ]
   },
   {
@@ -57600,11 +57554,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0,
+      "score": 0.1,
       "label": "neutral"
     },
     "categories": [
-      "general"
+      "app_cham_lag"
     ]
   },
   {
@@ -57824,7 +57778,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -58040,7 +57994,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
@@ -58064,7 +58018,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -58220,7 +58174,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -58264,7 +58218,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -58900,11 +58854,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -59024,7 +58978,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -59184,7 +59138,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -59564,7 +59518,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -59604,7 +59558,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -59624,7 +59578,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -59720,7 +59674,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -0.5,
+      "score": -0.4,
       "label": "negative"
     },
     "categories": [
@@ -59860,7 +59814,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
@@ -59944,7 +59898,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -59964,7 +59918,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -60044,7 +59998,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -60060,7 +60014,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -60244,8 +60198,7 @@
       "label": "neutral"
     },
     "categories": [
-      "account",
-      "update"
+      "general"
     ]
   },
   {
@@ -60425,7 +60378,7 @@
       "label": "neutral"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -60525,7 +60478,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -60665,7 +60618,7 @@
       "label": "positive"
     },
     "categories": [
-      "general"
+      "mat_tai_khoan"
     ]
   },
   {
@@ -60685,7 +60638,7 @@
       "label": "neutral"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -61105,7 +61058,7 @@
       "label": "negative"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -61121,7 +61074,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -61285,8 +61238,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance",
-      "update"
+      "app_cham_lag"
     ]
   },
   {
@@ -61346,7 +61298,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -61646,7 +61598,7 @@
       "label": "neutral"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -61682,7 +61634,7 @@
     "replyDate": "2019-09-20T06:43:41.617Z",
     "replyText": "Hi, \nWe apologize for any issues with the app and appreciate your feedback.\nFor help with downloading, installing, or opening TikTok, please contact our support team: feedback@tiktok.com",
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
@@ -61746,7 +61698,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "dang_nhap_loi"
     ]
   },
   {
@@ -62006,7 +61958,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -62306,7 +62258,7 @@
       "label": "positive"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -62466,7 +62418,7 @@
       "label": "neutral"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -62542,7 +62494,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
@@ -62866,7 +62818,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -62906,7 +62858,7 @@
       "label": "positive"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -63106,7 +63058,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -63126,7 +63078,7 @@
       "label": "neutral"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -63202,7 +63154,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -63966,7 +63918,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -64046,7 +63998,7 @@
       "label": "neutral"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -64146,8 +64098,7 @@
       "label": "negative"
     },
     "categories": [
-      "account",
-      "update"
+      "mat_tai_khoan"
     ]
   },
   {
@@ -64467,7 +64418,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -64667,7 +64618,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -64747,7 +64698,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -64847,8 +64798,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs",
-      "update"
+      "general"
     ]
   },
   {
@@ -64868,7 +64818,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -65388,7 +65338,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -65488,7 +65438,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -65548,8 +65498,7 @@
       "label": "negative"
     },
     "categories": [
-      "account",
-      "update"
+      "general"
     ]
   },
   {
@@ -65669,7 +65618,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -65869,7 +65818,7 @@
       "label": "positive"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -65889,7 +65838,7 @@
       "label": "negative"
     },
     "categories": [
-      "general"
+      "mat_tai_khoan"
     ]
   },
   {
@@ -65949,7 +65898,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -66029,7 +65978,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -66049,7 +65998,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -66109,7 +66058,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -66149,8 +66098,7 @@
       "label": "negative"
     },
     "categories": [
-      "account",
-      "update"
+      "general"
     ]
   },
   {
@@ -66246,12 +66194,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
-      "features",
-      "update"
+      "general"
     ]
   },
   {
@@ -66451,7 +66398,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -66471,8 +66418,7 @@
       "label": "negative"
     },
     "categories": [
-      "account",
-      "update"
+      "general"
     ]
   },
   {
@@ -66512,7 +66458,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -66532,7 +66478,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -66608,7 +66554,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.6,
+      "score": 0.7,
       "label": "positive"
     },
     "categories": [
@@ -66628,7 +66574,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0,
+      "score": 0.1,
       "label": "neutral"
     },
     "categories": [
@@ -66668,7 +66614,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -66712,7 +66658,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -66752,7 +66698,7 @@
       "label": "positive"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -66868,7 +66814,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
@@ -66892,7 +66838,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "app_cham_lag"
     ]
   },
   {
@@ -66932,7 +66878,7 @@
       "label": "negative"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -67008,7 +66954,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.9,
+      "score": 1,
       "label": "positive"
     },
     "categories": [
@@ -67052,7 +66998,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -67092,8 +67038,7 @@
       "label": "negative"
     },
     "categories": [
-      "account",
-      "update"
+      "general"
     ]
   },
   {
@@ -67149,7 +67094,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -0.5,
+      "score": -0.4,
       "label": "negative"
     },
     "categories": [
@@ -67233,7 +67178,7 @@
       "label": "positive"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -67289,7 +67234,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -67433,7 +67378,7 @@
       "label": "negative"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -67633,7 +67578,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -67893,7 +67838,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -67933,7 +67878,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -68033,7 +67978,7 @@
       "label": "neutral"
     },
     "categories": [
-      "general"
+      "mat_tai_khoan"
     ]
   },
   {
@@ -68073,7 +68018,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -68153,7 +68098,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -68233,7 +68178,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "dang_nhap_loi"
     ]
   },
   {
@@ -68253,7 +68198,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "dang_nhap_loi"
     ]
   },
   {
@@ -68353,7 +68298,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -68513,7 +68458,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -68653,7 +68598,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -68693,7 +68638,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -68753,7 +68698,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -69013,7 +68958,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -69073,8 +69018,7 @@
       "label": "negative"
     },
     "categories": [
-      "account",
-      "update"
+      "general"
     ]
   },
   {
@@ -69230,7 +69174,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -69354,7 +69298,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -69394,7 +69338,7 @@
       "label": "positive"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -69454,7 +69398,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -69474,7 +69418,7 @@
       "label": "negative"
     },
     "categories": [
-      "ads"
+      "general"
     ]
   },
   {
@@ -69574,7 +69518,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -69594,7 +69538,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -69834,7 +69778,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -69894,7 +69838,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -69974,7 +69918,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -70114,7 +70058,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -70234,7 +70178,7 @@
       "label": "negative"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -70294,7 +70238,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -70374,8 +70318,7 @@
       "label": "positive"
     },
     "categories": [
-      "ui",
-      "update"
+      "general"
     ]
   },
   {
@@ -70435,7 +70378,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -70451,7 +70394,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
@@ -70615,7 +70558,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -70775,7 +70718,7 @@
       "label": "negative"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -71155,7 +71098,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -71175,7 +71118,7 @@
       "label": "neutral"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -71295,7 +71238,7 @@
       "label": "negative"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -71375,7 +71318,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -71395,7 +71338,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -71575,8 +71518,7 @@
       "label": "positive"
     },
     "categories": [
-      "ui",
-      "update"
+      "general"
     ]
   },
   {
@@ -71596,7 +71538,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -71692,7 +71634,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0,
+      "score": 0.1,
       "label": "neutral"
     },
     "categories": [
@@ -71736,7 +71678,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -71956,7 +71898,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -71996,7 +71938,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -72036,7 +71978,7 @@
       "label": "negative"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -72156,7 +72098,7 @@
       "label": "negative"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -72216,10 +72158,7 @@
       "label": "positive"
     },
     "categories": [
-      "performance",
-      "features",
-      "security",
-      "update"
+      "app_cham_lag"
     ]
   },
   {
@@ -72259,7 +72198,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -72315,7 +72254,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.9,
+      "score": 1,
       "label": "positive"
     },
     "categories": [
@@ -72419,7 +72358,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -72439,7 +72378,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -72459,8 +72398,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance",
-      "update"
+      "general"
     ]
   },
   {
@@ -72500,7 +72438,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -72560,7 +72498,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -72620,7 +72558,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -72716,12 +72654,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
-      "features",
-      "update"
+      "general"
     ]
   },
   {
@@ -72921,7 +72858,7 @@
       "label": "neutral"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -72941,7 +72878,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -73021,7 +72958,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -73041,7 +72978,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -73061,7 +72998,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -73097,12 +73034,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
-      "performance",
-      "update"
+      "general"
     ]
   },
   {
@@ -73142,7 +73078,7 @@
       "label": "negative"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -73182,7 +73118,7 @@
       "label": "neutral"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -73202,7 +73138,7 @@
       "label": "neutral"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -73302,7 +73238,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -73322,7 +73258,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -73342,7 +73278,7 @@
       "label": "negative"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -73422,7 +73358,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -73538,7 +73474,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0,
+      "score": 0.1,
       "label": "neutral"
     },
     "categories": [
@@ -73622,8 +73558,7 @@
       "label": "negative"
     },
     "categories": [
-      "account",
-      "update"
+      "general"
     ]
   },
   {
@@ -73803,8 +73738,7 @@
       "label": "neutral"
     },
     "categories": [
-      "performance",
-      "features"
+      "general"
     ]
   },
   {
@@ -73824,7 +73758,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -73904,7 +73838,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -73944,7 +73878,7 @@
       "label": "negative"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -74000,12 +73934,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -0.1,
+      "score": 0,
       "label": "neutral"
     },
     "categories": [
-      "security",
-      "update"
+      "general"
     ]
   },
   {
@@ -74145,7 +74078,7 @@
       "label": "positive"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -74385,7 +74318,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -74625,9 +74558,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs",
-      "account",
-      "update"
+      "general"
     ]
   },
   {
@@ -74687,7 +74618,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -74867,7 +74798,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -75007,7 +74938,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "app_cham_lag"
     ]
   },
   {
@@ -75183,11 +75114,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -0.5,
+      "score": -0.4,
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -75483,11 +75414,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -75547,7 +75478,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "app_cham_lag"
     ]
   },
   {
@@ -75607,7 +75538,7 @@
       "label": "positive"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -75847,7 +75778,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -75987,8 +75918,7 @@
       "label": "positive"
     },
     "categories": [
-      "security",
-      "update"
+      "general"
     ]
   },
   {
@@ -76208,7 +76138,7 @@
       "label": "neutral"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -76248,7 +76178,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -76264,7 +76194,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -0.5,
+      "score": -0.4,
       "label": "negative"
     },
     "categories": [
@@ -76608,7 +76538,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "app_cham_lag"
     ]
   },
   {
@@ -76628,7 +76558,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -76688,7 +76618,7 @@
       "label": "neutral"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -76728,7 +76658,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -76768,7 +76698,7 @@
       "label": "positive"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -76904,7 +76834,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -77048,7 +76978,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -77068,8 +76998,7 @@
       "label": "negative"
     },
     "categories": [
-      "features",
-      "update"
+      "general"
     ]
   },
   {
@@ -77145,15 +77074,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.9,
+      "score": 1,
       "label": "positive"
     },
     "categories": [
-      "performance",
-      "ui",
-      "features",
-      "update",
-      "ads"
+      "general"
     ]
   },
   {
@@ -77189,7 +77114,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -77273,7 +77198,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -77493,7 +77418,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -77513,7 +77438,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -77769,7 +77694,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -77833,7 +77758,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -77929,7 +77854,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -78049,7 +77974,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -78153,7 +78078,7 @@
       "label": "positive"
     },
     "categories": [
-      "performance"
+      "app_cham_lag"
     ]
   },
   {
@@ -78433,8 +78358,7 @@
       "label": "positive"
     },
     "categories": [
-      "performance",
-      "update"
+      "general"
     ]
   },
   {
@@ -78694,7 +78618,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -78814,7 +78738,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -78974,7 +78898,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -79074,7 +78998,7 @@
       "label": "positive"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -79134,7 +79058,7 @@
       "label": "neutral"
     },
     "categories": [
-      "security"
+      "general"
     ]
   },
   {
@@ -79214,8 +79138,7 @@
       "label": "neutral"
     },
     "categories": [
-      "security",
-      "account"
+      "general"
     ]
   },
   {
@@ -79291,7 +79214,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0,
+      "score": 0.1,
       "label": "neutral"
     },
     "categories": [
@@ -79475,7 +79398,7 @@
       "label": "neutral"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -79535,7 +79458,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -79735,7 +79658,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -79775,7 +79698,7 @@
       "label": "neutral"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -79895,7 +79818,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -79915,7 +79838,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -79935,7 +79858,7 @@
       "label": "negative"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -80015,7 +79938,7 @@
       "label": "neutral"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -80055,7 +79978,7 @@
       "label": "neutral"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -80155,7 +80078,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -80235,8 +80158,7 @@
       "label": "negative"
     },
     "categories": [
-      "ui",
-      "update"
+      "general"
     ]
   },
   {
@@ -80276,7 +80198,7 @@
       "label": "neutral"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -80296,11 +80218,7 @@
       "label": "positive"
     },
     "categories": [
-      "performance",
-      "ui",
-      "bugs",
-      "update",
-      "engagement"
+      "general"
     ]
   },
   {
@@ -80316,7 +80234,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -0.5,
+      "score": -0.4,
       "label": "negative"
     },
     "categories": [
@@ -80380,7 +80298,7 @@
       "label": "negative"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -80580,8 +80498,7 @@
       "label": "negative"
     },
     "categories": [
-      "ui",
-      "bugs"
+      "general"
     ]
   },
   {
@@ -80621,7 +80538,7 @@
       "label": "positive"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -80637,7 +80554,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -80741,7 +80658,7 @@
       "label": "positive"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -81001,7 +80918,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -81141,8 +81058,7 @@
       "label": "neutral"
     },
     "categories": [
-      "ui",
-      "bugs"
+      "general"
     ]
   },
   {
@@ -81178,7 +81094,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0,
+      "score": 0.1,
       "label": "neutral"
     },
     "categories": [
@@ -81222,7 +81138,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -81522,8 +81438,7 @@
       "label": "positive"
     },
     "categories": [
-      "ui",
-      "bugs"
+      "general"
     ]
   },
   {
@@ -81583,8 +81498,7 @@
       "label": "positive"
     },
     "categories": [
-      "ui",
-      "bugs"
+      "general"
     ]
   },
   {
@@ -81800,7 +81714,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -0.5,
+      "score": -0.4,
       "label": "negative"
     },
     "categories": [
@@ -81924,7 +81838,7 @@
       "label": "positive"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -82184,7 +82098,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -82204,7 +82118,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -82324,7 +82238,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -82344,7 +82258,7 @@
       "label": "neutral"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -82704,7 +82618,7 @@
       "label": "positive"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -82924,7 +82838,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -82944,7 +82858,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -82964,7 +82878,7 @@
       "label": "negative"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -83004,7 +82918,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -83044,7 +82958,7 @@
       "label": "positive"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -83060,11 +82974,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -83164,7 +83078,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -83184,7 +83098,7 @@
       "label": "positive"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -83240,7 +83154,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0,
+      "score": 0.1,
       "label": "neutral"
     },
     "categories": [
@@ -83300,7 +83214,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -83424,7 +83338,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -83844,7 +83758,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -83864,7 +83778,7 @@
       "label": "positive"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -84040,7 +83954,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -84124,7 +84038,7 @@
       "label": "positive"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -84284,7 +84198,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -84644,7 +84558,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "mat_tai_khoan"
     ]
   },
   {
@@ -84764,7 +84678,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -84800,7 +84714,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -1,
+      "score": -0.9,
       "label": "negative"
     },
     "categories": [
@@ -85124,7 +85038,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -85404,7 +85318,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -85844,7 +85758,7 @@
       "label": "positive"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -85904,8 +85818,7 @@
       "label": "positive"
     },
     "categories": [
-      "features",
-      "update"
+      "general"
     ]
   },
   {
@@ -85985,7 +85898,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -86101,7 +86014,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -86261,11 +86174,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.6,
+      "score": 0.7,
       "label": "positive"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -86485,7 +86398,7 @@
       "label": "negative"
     },
     "categories": [
-      "security"
+      "general"
     ]
   },
   {
@@ -86565,7 +86478,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -86805,7 +86718,7 @@
       "label": "negative"
     },
     "categories": [
-      "security"
+      "general"
     ]
   },
   {
@@ -86965,7 +86878,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -87165,7 +87078,7 @@
       "label": "neutral"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -87245,7 +87158,7 @@
       "label": "neutral"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -87445,7 +87358,7 @@
       "label": "negative"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -87465,7 +87378,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -87685,7 +87598,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -87785,8 +87698,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs",
-      "account"
+      "general"
     ]
   },
   {
@@ -88006,7 +87918,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -88026,8 +87938,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance",
-      "bugs"
+      "general"
     ]
   },
   {
@@ -88147,7 +88058,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -88247,7 +88158,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -88723,11 +88634,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0,
+      "score": 0.1,
       "label": "neutral"
     },
     "categories": [
-      "security"
+      "general"
     ]
   },
   {
@@ -88767,7 +88678,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -88867,7 +88778,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -88987,7 +88898,7 @@
       "label": "negative"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -89067,7 +88978,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -89287,8 +89198,7 @@
       "label": "positive"
     },
     "categories": [
-      "bugs",
-      "update"
+      "general"
     ]
   },
   {
@@ -89448,7 +89358,7 @@
       "label": "neutral"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -89568,7 +89478,7 @@
       "label": "positive"
     },
     "categories": [
-      "general"
+      "video_khong_tai"
     ]
   },
   {
@@ -89588,7 +89498,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -89928,7 +89838,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -90048,7 +89958,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -90084,11 +89994,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -0.6,
+      "score": -0.5,
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -90148,7 +90058,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -90328,8 +90238,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance",
-      "bugs"
+      "app_cham_lag"
     ]
   },
   {
@@ -90469,7 +90378,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -90709,7 +90618,7 @@
       "label": "neutral"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -90765,7 +90674,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -90809,7 +90718,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -90909,7 +90818,7 @@
       "label": "positive"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -90969,7 +90878,7 @@
       "label": "neutral"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -91005,7 +90914,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -0.5,
+      "score": -0.4,
       "label": "negative"
     },
     "categories": [
@@ -91029,7 +90938,7 @@
       "label": "positive"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -91409,7 +91318,7 @@
       "label": "neutral"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -91429,7 +91338,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -91529,8 +91438,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance",
-      "bugs"
+      "general"
     ]
   },
   {
@@ -91890,7 +91798,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -92130,7 +92038,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -92230,7 +92138,7 @@
       "label": "neutral"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -92270,7 +92178,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -92410,7 +92318,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -92646,7 +92554,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
@@ -92906,7 +92814,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.9,
+      "score": 1,
       "label": "positive"
     },
     "categories": [
@@ -92990,7 +92898,7 @@
       "label": "negative"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -93090,7 +92998,7 @@
       "label": "neutral"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -93290,7 +93198,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -93306,11 +93214,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.9,
+      "score": 1,
       "label": "positive"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -93330,7 +93238,7 @@
       "label": "neutral"
     },
     "categories": [
-      "performance"
+      "app_cham_lag"
     ]
   },
   {
@@ -93410,7 +93318,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -93430,7 +93338,7 @@
       "label": "negative"
     },
     "categories": [
-      "update"
+      "app_cham_lag"
     ]
   },
   {
@@ -93546,11 +93454,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
-      "general"
+      "app_cham_lag"
     ]
   },
   {
@@ -93590,7 +93498,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -93670,7 +93578,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -93830,8 +93738,7 @@
       "label": "neutral"
     },
     "categories": [
-      "performance",
-      "bugs"
+      "general"
     ]
   },
   {
@@ -93971,7 +93878,7 @@
       "label": "negative"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -94031,7 +93938,7 @@
       "label": "negative"
     },
     "categories": [
-      "general"
+      "app_cham_lag"
     ]
   },
   {
@@ -94171,7 +94078,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -94191,7 +94098,7 @@
       "label": "neutral"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -94207,11 +94114,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0.5,
+      "score": 0.6,
       "label": "positive"
     },
     "categories": [
-      "performance"
+      "general"
     ]
   },
   {
@@ -94267,7 +94174,7 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": 0,
+      "score": 0.1,
       "label": "neutral"
     },
     "categories": [
@@ -94371,7 +94278,7 @@
       "label": "positive"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -94551,7 +94458,7 @@
       "label": "positive"
     },
     "categories": [
-      "update"
+      "general"
     ]
   },
   {
@@ -94671,7 +94578,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -94787,12 +94694,11 @@
     "replyDate": null,
     "replyText": null,
     "sentiment": {
-      "score": -0.5,
+      "score": -0.4,
       "label": "negative"
     },
     "categories": [
-      "performance",
-      "features"
+      "general"
     ]
   },
   {
@@ -94812,7 +94718,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -94872,7 +94778,7 @@
       "label": "positive"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -94932,7 +94838,7 @@
       "label": "positive"
     },
     "categories": [
-      "features"
+      "general"
     ]
   },
   {
@@ -94952,7 +94858,7 @@
       "label": "positive"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -95012,7 +94918,7 @@
       "label": "negative"
     },
     "categories": [
-      "account"
+      "general"
     ]
   },
   {
@@ -95092,8 +94998,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs",
-      "account"
+      "general"
     ]
   },
   {
@@ -95313,7 +95218,7 @@
       "label": "positive"
     },
     "categories": [
-      "ui"
+      "general"
     ]
   },
   {
@@ -95333,7 +95238,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -95533,7 +95438,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -95553,7 +95458,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -95733,7 +95638,7 @@
       "label": "neutral"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   },
   {
@@ -95753,7 +95658,7 @@
       "label": "negative"
     },
     "categories": [
-      "engagement"
+      "general"
     ]
   },
   {
@@ -95773,7 +95678,7 @@
       "label": "negative"
     },
     "categories": [
-      "bugs"
+      "general"
     ]
   }
 ]
