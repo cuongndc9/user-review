@@ -1,5 +1,105 @@
 [
   {
+    "id": "android_6c1c6cbf-cbeb-4ff5-acea-5392a1203f07",
+    "platform": "android",
+    "author": "Đạt Trần",
+    "date": "2025-12-04T08:25:22.551Z",
+    "rating": 1,
+    "text": "không follow được người dùng",
+    "title": "",
+    "version": "",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "android_0f692be8-c9ca-4024-a4cf-5127de54f9ce",
+    "platform": "android",
+    "author": "Meosz Nguyenz",
+    "date": "2025-12-02T01:38:48.970Z",
+    "rating": 3,
+    "text": "App có nhiều người toxic 💔 Cái đel gì cũng hate được, thua.",
+    "title": "",
+    "version": "28.2.3",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -0.1,
+      "label": "neutral"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "android_fd2df8ee-006b-4703-872d-c07655b5e368",
+    "platform": "android",
+    "author": "quan hung tran",
+    "date": "2025-12-01T13:09:32.924Z",
+    "rating": 5,
+    "text": "Tốt",
+    "title": "",
+    "version": "42.6.4",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": 1,
+      "label": "positive"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "android_9e83a5db-d3bb-46ce-98eb-5b500f184bf2",
+    "platform": "android",
+    "author": "Ser N D",
+    "date": "2025-11-30T23:16:21.179Z",
+    "rating": 1,
+    "text": "súc vật Tú Sena",
+    "title": "",
+    "version": "",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "android_39b1281f-dcca-47c3-854a-e8eff3ee4c5f",
+    "platform": "android",
+    "author": "May Nsh",
+    "date": "2025-11-30T08:45:39.242Z",
+    "rating": 5,
+    "text": "good",
+    "title": "",
+    "version": "42.6.4",
+    "device": "",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": 1,
+      "label": "positive"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
     "id": "android_18aad735-6067-46b4-810f-f5e85d8b7b64",
     "platform": "android",
     "author": "Đạt Trần",
@@ -21602,26 +21702,6 @@
     ]
   },
   {
-    "id": "android_0f692be8-c9ca-4024-a4cf-5127de54f9ce",
-    "platform": "android",
-    "author": "Meosz Nguyenz",
-    "date": "2023-04-13T04:41:14.621Z",
-    "rating": 4,
-    "text": "Good !",
-    "title": "",
-    "version": "28.2.3",
-    "device": "",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": 0.5,
-      "label": "positive"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
     "id": "android_8a90dc6f-5b98-458e-96fa-57395e4be021",
     "platform": "android",
     "author": "Funny Not Funny",
@@ -31584,7 +31664,7 @@
   {
     "id": "android_dc4a7264-e05f-4761-9318-a6aefd70dd76",
     "platform": "android",
-    "author": "Nhật Lynh",
+    "author": "Nhật Lynh cs2",
     "date": "2022-03-28T16:28:22.810Z",
     "rating": 5,
     "text": "Toẹt👁👄👁💪",

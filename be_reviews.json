@@ -1,9 +1,589 @@
 [
   {
+    "id": "ios_13471997745",
+    "platform": "ios",
+    "author": "Muốn xoá ứng dụng Bee",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 1,
+    "title": "Tài xế nhận xe rất lâu sau đó huỷ chuyến",
+    "text": "Tài xế 1 nhận chuyến và bấm đã đón khách , đợi 10p gọi thì tài xế báo đang đi trả điện thoại cho khách khác\nTài xế 2 vừa nhận chuyến, gọi nói cách xa 3km. Nói tài xế ko huỷ chuyến được",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "ios_13470323099",
+    "platform": "ios",
+    "author": "XMHV",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 1,
+    "title": "App lỗi quá nhiều",
+    "text": "Tính năng thông báo ko work chi tiết, đơn hàng huỷ ko báo ko lưu lịch sử, app hoạt động lỗi lag thường xuyên",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "ios_13469755252",
+    "platform": "ios",
+    "author": "Kh11110",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 2,
+    "title": "Định vị sai cho tài xế",
+    "text": "Lâu lâu cứ bị sai địa chỉ đợt lâu",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -0.5,
+      "label": "negative"
+    },
+    "categories": [
+      "gps_loi"
+    ]
+  },
+  {
+    "id": "ios_13469340403",
+    "platform": "ios",
+    "author": "meoww333",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 1,
+    "title": "App như cứt",
+    "text": "Gói hội viên mua đc mà huỷ phải gọi điện xin phép app, tài xế thì thái độ với khách hàng,…",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "ios_13469013986",
+    "platform": "ios",
+    "author": "Hương trà19877",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 5,
+    "title": "Nhanh - giao nhận nhanh nhiệt tình",
+    "text": "Giao nhận nhanh nhiệt tình",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": 1,
+      "label": "positive"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "ios_13468993985",
+    "platform": "ios",
+    "author": "Tududangphuoc",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 1,
+    "title": "Nhận đơn nhưng không giao đơn",
+    "text": "Đặt PhêLa từ 9h có TX nhận nhưng không lấy đơn.Chờ đến 11h vẫn không thấy 😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "ios_13468929154",
+    "platform": "ios",
+    "author": "mệt òi",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 3,
+    "title": "Chưa ưng",
+    "text": "định vị rất kém, giá cao hơn GRAB vaf XANH quá nhiều",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -0.1,
+      "label": "neutral"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "ios_13468922129",
+    "platform": "ios",
+    "author": "Hi_ngoctrinh",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 1,
+    "title": "Thiếu minh bạch",
+    "text": "Làm ăn thiếu chuyên nghiệp từ be đến quán đối tác đến shipper, hotline thì không giúp ích được gì, nv hỗ trợ Ngà",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -0.9,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "ios_13468828087",
+    "platform": "ios",
+    "author": "kvy1106",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 1,
+    "title": "tự ý huỷ chuyến",
+    "text": "luôn huỷ chuyến đặt trc của tôi",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "ios_13468392619",
+    "platform": "ios",
+    "author": "Kiều Anh Dương",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 1,
+    "title": "Đéo có xế",
+    "text": "App như con cặc. Sáng nào gọi xe cũng lâu vãi lồn mà ở quận tây hồ chứ k phải miền núi. Hnao cũng đi làm đi học muộn như con cặc. Địt cụ thằng làm app",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "xe_ban_cu"
+    ]
+  },
+  {
+    "id": "ios_13466974157",
+    "platform": "ios",
+    "author": "Ngọc Ánh và 1sao",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 1,
+    "title": "Làm ăn thiếu chuyên nghiệp",
+    "text": "Trừ tiền khi huỷ đơn hàng, ko phản hồi khách hàng",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -0.9,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "ios_13465704845",
+    "platform": "ios",
+    "author": "yuelanbzy",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 1,
+    "title": "dịch vụ dọn nhà quá tệ",
+    "text": "đặt dọn nhà trước 2 tiếng, báo có người nhận rồi huỷ sát giờ kêu ko hiểu sao be giao task 😇? book từ 1h chiều đến 4h chiều ko xếp được người khác",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "ios_13465217126",
+    "platform": "ios",
+    "author": "Mrsonly",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 5,
+    "title": "Ok",
+    "text": "Tốt",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": 1,
+      "label": "positive"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "ios_13465168581",
+    "platform": "ios",
+    "author": "nhaccaanh",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 1,
+    "title": "Dịch vụ tệ hại nhất",
+    "text": "Đặt be food mà nhà hàng hết món, tổng đài bận ko cho hủy chưa bao h thấy cái app nào dịch vụ nào khốn nạn như vậy",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "ios_13465084377",
+    "platform": "ios",
+    "author": "Jonathan0414",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 1,
+    "title": "Dịch vụ tệ",
+    "text": "Thanh toán xong huỷ đơn, hẹn 10 ngày hoàn tiền và hai tháng trời gọi nhiều cuộc gọi vô ích, báo hỗ trợ thì toàn huỷ ghi là đã đóng hỗ trợ",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "ios_13463417355",
+    "platform": "ios",
+    "author": "hfhdsugeg",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 1,
+    "title": "chính sách k rõ ràng khó chịu vch tựu động đăng kí gói này gói kia k có thông báo",
+    "text": "chính sách k rõ ràng khó chịu vch tựu động đăng kí gói này gói kia k có thông báo",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "ios_13462863919",
+    "platform": "ios",
+    "author": "Mắm Nam Ngư",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 1,
+    "title": "App cực lag",
+    "text": "App treo, không xem được gì",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "ios_13462181795",
+    "platform": "ios",
+    "author": "qqmilklele",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 2,
+    "title": "App lỗi",
+    "text": "Đặt giao hàng nhưng app lỗi khiến tx ko thấy dc dt của bên lấy đơn và bên nhận đơn. Tệ quá tệ app ơiii",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -0.7,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "ios_13462150159",
+    "platform": "ios",
+    "author": "Mập 6/10",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 1,
+    "title": "Bị xe máy tông chiếc đó tên vison màu đen",
+    "text": "Hồi sáng có một chiếc xe máy vison đi trên đường trường chinh phường bảy hiền trường thcs Ngô quyền đã tông vào chân tôi khiến tôi phải bị bông gân",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "ios_13461875836",
+    "platform": "ios",
+    "author": "@;&;73!:!:/@@/@/-",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 1,
+    "title": "App lỗi quá nhiều gây phiền hà cho khách",
+    "text": "App lỗi quá nhiều, định vị sai vị trí rất nhiều",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "gps_loi"
+    ]
+  },
+  {
+    "id": "ios_13461812780",
+    "platform": "ios",
+    "author": "Ga12232",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 1,
+    "title": "Cắn tiền tip của tài xế",
+    "text": "Doanh nghiệp trong nước mà tới tiền tip của tài xế còn cắn",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "ios_13461713858",
+    "platform": "ios",
+    "author": "@?₫123",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 4,
+    "title": "Vị trí",
+    "text": "App Be nên cập nhật lại vị trí, khách đặt số nhà, tên đường chỉnh xác, app lại nhảy vị trí điểm đến qua chỗ khác.",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": 0.5,
+      "label": "positive"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "ios_13459440034",
+    "platform": "ios",
+    "author": "ouija44",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 5,
+    "title": "tài xế nhiệt tình",
+    "text": "rất cầu thị",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": 1,
+      "label": "positive"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "ios_13458722723",
+    "platform": "ios",
+    "author": "dovo iphone",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 5,
+    "title": "gữi hàng",
+    "text": "nhanh",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": 1,
+      "label": "positive"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "ios_13455932284",
+    "platform": "ios",
+    "author": "Iklmn8",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 1,
+    "title": "Gói xinh viên",
+    "text": "Mua mà nó tự động gia hạn xong không có nút huỷ gói hay huỷ gia hạn. Mỗi tháng tự động gia hạn chịu chết",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "ios_13453533545",
+    "platform": "ios",
+    "author": "smith0202",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 1,
+    "title": "Map sai, thời gian ước tính tài xế đến nơi  ảo ( lừa khách)",
+    "text": "Bản đồ vị trí sai, thiếu dữ liệu vị trí, thời gian ước tính tài xế đến nơi  ảo ( lừa khách)",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "ios_13453288584",
+    "platform": "ios",
+    "author": "nguyenhophuoc",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 1,
+    "title": "App lỗi",
+    "text": "App bị lỗi, điện shipper k được, shipper điện lại cũng bắt máy nghe k được. Bực bội",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "ios_13452841396",
+    "platform": "ios",
+    "author": "Thất vọng ******",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 1,
+    "title": "Tài xế Be Car thô lỗ",
+    "text": "Đặt Be car được vài lần, toàn gặp tài xế thái độ thiếu chuyên nghiệp thiếu tôn trọng khách hàng. Hết quát vào mặt khách rồi tới đuổi khách xuống giữa đường. Làm dịch vụ không tốt ở mảng Be Car, xe thường không có nghĩa là bớt học mà thái độ dịch vụ như thế, khách đi có trả phí chứ không free, Be xem lại cách training tài xế, tôi gặp toàn thành phần thô lỗ thiếu chuyên nghiệp, rất thất vọng về dịch vụ Car của Be.",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "general"
+    ]
+  },
+  {
+    "id": "ios_13452493877",
+    "platform": "ios",
+    "author": "Tam02718",
+    "date": "2025-12-06T03:04:13.863Z",
+    "rating": 1,
+    "title": "App lỗi tùm lum",
+    "text": "Định vị sai làm tài xê không bao giờ tới đón được. Bực nhất vào lúc sáng. Suýt làm trễ xe về quê",
+    "version": "3.6.162",
+    "device": "iOS",
+    "replyDate": null,
+    "replyText": null,
+    "sentiment": {
+      "score": -1,
+      "label": "negative"
+    },
+    "categories": [
+      "gps_loi"
+    ]
+  },
+  {
     "id": "ios_13450802547",
     "platform": "ios",
     "author": "khai monkey",
-    "date": "2025-11-30T08:35:42.506Z",
+    "date": "2025-12-06T03:04:13.863Z",
     "rating": 5,
     "title": "Vui",
     "text": "Vui",
@@ -23,7 +603,7 @@
     "id": "ios_13449482028",
     "platform": "ios",
     "author": "Steven6584",
-    "date": "2025-11-30T08:35:42.506Z",
+    "date": "2025-12-06T03:04:13.863Z",
     "rating": 1,
     "title": "App không quản lý tốt",
     "text": "Tài xế nhận cuốc rồi không di chuyển, bản thân tôi phải ngồi chờ và đợi, xong phải bấm huỷ để đặt lại 3-4 lần, tới giờ vẫn k có xe",
@@ -43,7 +623,7 @@
     "id": "ios_13448772693",
     "platform": "ios",
     "author": "haminks",
-    "date": "2025-11-30T08:35:42.506Z",
+    "date": "2025-12-06T03:04:13.863Z",
     "rating": 1,
     "title": "Tài xế chảnh chó",
     "text": "Không bao giờ nhận cuốc",
@@ -63,7 +643,7 @@
     "id": "ios_13448685106",
     "platform": "ios",
     "author": "ptpt1234",
-    "date": "2025-11-30T08:35:42.506Z",
+    "date": "2025-12-06T03:04:13.863Z",
     "rating": 1,
     "title": "tệ",
     "text": "app bị ảo giá à??? đi xe máy 4 cây hết 90k",
@@ -83,7 +663,7 @@
     "id": "ios_13447207704",
     "platform": "ios",
     "author": "trung kien tp",
-    "date": "2025-11-30T08:35:42.506Z",
+    "date": "2025-12-06T03:04:13.863Z",
     "rating": 1,
     "title": "Cty mất dạy",
     "text": "Bào sức của bào xế",
@@ -103,7 +683,7 @@
     "id": "ios_13446634816",
     "platform": "ios",
     "author": "Oi doi oiii.",
-    "date": "2025-11-30T08:35:42.506Z",
+    "date": "2025-12-06T03:04:13.863Z",
     "rating": 1,
     "title": "Oi doi oi",
     "text": "Bị lái xe của be nhổ nước bọt vào chân :))",
@@ -123,7 +703,7 @@
     "id": "ios_13446465193",
     "platform": "ios",
     "author": "Người khờ",
-    "date": "2025-11-30T08:35:42.506Z",
+    "date": "2025-12-06T03:04:13.863Z",
     "rating": 1,
     "title": "Tệ",
     "text": "t bị tài xế đụng chạm, giờ t trúng thực hạ đường huyết đặt mãi k ship nào nhận",
@@ -143,7 +723,7 @@
     "id": "ios_13446352158",
     "platform": "ios",
     "author": "Rainy88155",
-    "date": "2025-11-30T08:35:42.506Z",
+    "date": "2025-12-06T03:04:13.863Z",
     "rating": 1,
     "title": "Tệ nha.",
     "text": "Đơn ko thành công mà trừ tiền tk của mình. Gửi hỗ trợ đến nay đúng 1 tháng chưa thấy hoàn tiền, chăm sóc khách hàng cực tệ.",
@@ -163,7 +743,7 @@
     "id": "ios_13446347665",
     "platform": "ios",
     "author": "Chịu thật sự",
-    "date": "2025-11-30T08:35:42.506Z",
+    "date": "2025-12-06T03:04:13.863Z",
     "rating": 1,
     "title": "Không hài lòng với tài xế",
     "text": "Chán với tài xế cả cách xử lý",
@@ -183,7 +763,7 @@
     "id": "ios_13446009036",
     "platform": "ios",
     "author": "Ti Hói",
-    "date": "2025-11-30T08:35:42.506Z",
+    "date": "2025-12-06T03:04:13.863Z",
     "rating": 1,
     "title": "K hoàn tiền khách",
     "text": "chuyến xe tôi huỷ , bảo hoàn tiền trong 24h , tới bh đã là 1 tháng trời cứ day dưa mãi , từ app tới bộ phận cskh cứ bảo đợi k chịu giải quyết , số tiền k lớn nhưng mãi chẳng giải quyết cho khách hàng . k còn gì để nói",
@@ -203,7 +783,7 @@
     "id": "ios_13445466084",
     "platform": "ios",
     "author": "thudv666",
-    "date": "2025-11-30T08:35:42.506Z",
+    "date": "2025-12-06T03:04:13.863Z",
     "rating": 1,
     "title": "Chộp giựt",
     "text": "Bọn này làm ăn chộp giựt nhất, chỉ 1 phút thôi nó sẽ thay đổi giá ngay lập tức",
@@ -223,7 +803,7 @@
     "id": "ios_13445353006",
     "platform": "ios",
     "author": "LinhbJanajj",
-    "date": "2025-11-30T08:35:42.506Z",
+    "date": "2025-12-06T03:04:13.863Z",
     "rating": 1,
     "title": "Tệ",
     "text": "đăng kí gói tiết kiệm bị trừ tiền nhưng không hiện đã mua gói, không sử dụng được gói .",
@@ -243,7 +823,7 @@
     "id": "ios_13444083669",
     "platform": "ios",
     "author": "AdaBeo",
-    "date": "2025-11-30T08:35:42.506Z",
+    "date": "2025-12-06T03:04:13.863Z",
     "rating": 1,
     "title": "Dịch vụ chăm sóc khách hàng tệ",
     "text": "Lúc đầu app rất ổn, sau này phản hồi của khách hàng chỉ xử lý qua loa cho qua, không thấy động thái xử lý cho xong vấn đề cho khách hàng.",
@@ -263,7 +843,7 @@
     "id": "ios_13443311046",
     "platform": "ios",
     "author": "Quốc Hưng 2809",
-    "date": "2025-11-30T08:35:42.506Z",
+    "date": "2025-12-06T03:04:13.863Z",
     "rating": 5,
     "title": "Apps tốt",
     "text": "Tài xế rất thán thiện, mưa gió vẫn book tốt, giá hợp lý",
@@ -283,7 +863,7 @@
     "id": "ios_13443095496",
     "platform": "ios",
     "author": "Trần Quang Thức",
-    "date": "2025-11-30T08:35:42.506Z",
+    "date": "2025-12-06T03:04:13.863Z",
     "rating": 5,
     "title": "Tài xế chuyên nghiệp",
     "text": "Hài lòng",
@@ -303,7 +883,7 @@
     "id": "ios_13442401409",
     "platform": "ios",
     "author": "1000 lần",
-    "date": "2025-11-30T08:35:42.506Z",
+    "date": "2025-12-06T03:04:13.863Z",
     "rating": 1,
     "title": "Đánh giá",
     "text": "Quá tệ",
@@ -323,7 +903,7 @@
     "id": "ios_13442100253",
     "platform": "ios",
     "author": "Chịu lol",
-    "date": "2025-11-30T08:35:42.506Z",
+    "date": "2025-12-06T03:04:13.863Z",
     "rating": 1,
     "title": "Ngày càng tệ",
     "text": "App gì mà h bắt khách đợi >15 phút còn chưa có nổi 1 tài xế, sáng còn vậy chả biết tối như nào",
@@ -343,7 +923,7 @@
     "id": "ios_13441731441",
     "platform": "ios",
     "author": "Panh03",
-    "date": "2025-11-30T08:35:42.506Z",
+    "date": "2025-12-06T03:04:13.863Z",
     "rating": 5,
     "title": "Dịch vụ tốt",
     "text": "Ship nhanh, mua đồ ăn nhiều voucher",
@@ -363,7 +943,7 @@
     "id": "ios_13441644787",
     "platform": "ios",
     "author": "Đổng kiều oanh",
-    "date": "2025-11-30T08:35:42.506Z",
+    "date": "2025-12-06T03:04:13.863Z",
     "rating": 1,
     "title": "Nhân viên chạy xe",
     "text": "Em có ik 1 chuyến từ tiệm xe thanh tùng về nhà bè ạ  cuốc đó em đã trả qua app r mà vẫn nói là chx trả tiền bắt em trả thêm 271 nghìn ạ mà nói tổng dài của be mà tổng đài be xử lý quá và ko có 1 lời giải thích hợp lý ạ",
@@ -383,7 +963,7 @@
     "id": "ios_13439766280",
     "platform": "ios",
     "author": "haruno yukiji",
-    "date": "2025-11-30T08:35:42.506Z",
+    "date": "2025-12-06T03:04:13.863Z",
     "rating": 2,
     "title": "Giúp với",
     "text": "Bạn em làm em bị khoá tài khoản có cách nào mở lại được không ạ, gọi tổng tài vô cùng qua loa luôn ạ huhu",
@@ -403,7 +983,7 @@
     "id": "ios_13439695686",
     "platform": "ios",
     "author": "Ri nee",
-    "date": "2025-11-30T08:35:42.506Z",
+    "date": "2025-12-06T03:04:13.863Z",
     "rating": 1,
     "title": "Tài xế tự nhận xong tự huỷ chuyến",
     "text": "Kh hài lòng với tài xế",
@@ -417,586 +997,6 @@
     },
     "categories": [
       "general"
-    ]
-  },
-  {
-    "id": "ios_13438656110",
-    "platform": "ios",
-    "author": "Ngc.meiw",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 1,
-    "title": "Quy trình kém",
-    "text": "Giải quyết khiếu nại ngu ghê, trả lời mail rất kém nhận thức.",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": -1,
-      "label": "negative"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "ios_13438592577",
-    "platform": "ios",
-    "author": "minh6513",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 2,
-    "title": "Hướng dẫn đường đi tốt hơn",
-    "text": "App càng cập nhật càng không hiệu quả. Muốn coi tiến độ xe di chuyển phải thoát ra vô lại mới coi đc",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": -0.4,
-      "label": "negative"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "ios_13438494131",
-    "platform": "ios",
-    "author": "Blueberry Cat🫐",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 5,
-    "title": "Hài lòng",
-    "text": "Mã giảm hợp lí",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": 1,
-      "label": "positive"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "ios_13436470030",
-    "platform": "ios",
-    "author": "Okhhhqws",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 5,
-    "title": "Ok",
-    "text": "Ok",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": 1,
-      "label": "positive"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "ios_13436155479",
-    "platform": "ios",
-    "author": "Tung anh0205",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 1,
-    "title": "Góp ý",
-    "text": "Map hay sai.ko cho khách nhận xét tài xế tự ý hủy chuyến của khách",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": -1,
-      "label": "negative"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "ios_13435711890",
-    "platform": "ios",
-    "author": "Vân Hàa",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 1,
-    "title": "1 trải nghiệm không tốt",
-    "text": "đã gặp phải shipper quá đáng thất vọng, 1 thái độ không tốt, chuyên cần, tỉ mỉ, nhiệt tình, phục vụ kém",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": -1,
-      "label": "negative"
-    },
-    "categories": [
-      "tai_xe_thai_do_te"
-    ]
-  },
-  {
-    "id": "ios_13435500039",
-    "platform": "ios",
-    "author": "Tina Phong",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 5,
-    "title": "Be quá là nhanh chóng thông minh",
-    "text": "Sẽ dùng dài ⭐️❤️🥰",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": 1,
-      "label": "positive"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "ios_13435239597",
-    "platform": "ios",
-    "author": "Minh Thuý Nè",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 1,
-    "title": "Chê",
-    "text": "Đặt app mà tài xế nhận chuyến rồi để khách đợi gần 10 phút rồi rốt cuộc huỷ chuyến",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": -1,
-      "label": "negative"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "ios_13435175358",
-    "platform": "ios",
-    "author": "Bố Việt Của Con Game Đây",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 1,
-    "title": "Thua xa xanh sm",
-    "text": "Quá kém",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": -1,
-      "label": "negative"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "ios_13434986734",
-    "platform": "ios",
-    "author": "Vkle1",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 1,
-    "title": "Đặt đồ ăn",
-    "text": "CÀNG NGÀY ADD VOUCHER VÀO ĐƠN KHÔNG CÓ SHIPPER NÀO NHẬN. APP QUÁ TỆ",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": -1,
-      "label": "negative"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "ios_13434921221",
-    "platform": "ios",
-    "author": "なぁつきや",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 1,
-    "title": "App tệ, không bắt được xem",
-    "text": "Tôi thường đặt xe vào lúc 17h nhưng dạo gần đây không lúc nào đặt được, dù đã để chạy hết thời gian mà chấp nhận tăng giá. Không biết do lỗi hệ thống hay tài xế tắt app, mong kiểm tra và chấn chỉnh lại. Cảm ơn.",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": -1,
-      "label": "negative"
-    },
-    "categories": [
-      "gia_cao"
-    ]
-  },
-  {
-    "id": "ios_13434371117",
-    "platform": "ios",
-    "author": "Seine142000",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 5,
-    "title": "...",
-    "text": "...",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": 1,
-      "label": "positive"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "ios_13433482555",
-    "platform": "ios",
-    "author": "Almonđ",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 1,
-    "title": "rất thất vọng đã lên tới thành viên kc mà kh đc đãi ngộ gì còn bị ép giá",
-    "text": "Bắt app khác rẻ hơn 20k so với app be, mã giảm cho như bố thí. Nch là tăng giá ảo+siết mã giảm.",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": -1,
-      "label": "negative"
-    },
-    "categories": [
-      "gia_cao"
-    ]
-  },
-  {
-    "id": "ios_13430802016",
-    "platform": "ios",
-    "author": "Khánh Tiên 19",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 1,
-    "title": "Trừ tiền vô duyên",
-    "text": "Tự nhiên không vào app mà bị trừ 25k vì lí do đăng kí hội viên 😡😡",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": -1,
-      "label": "negative"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "ios_13430371231",
-    "platform": "ios",
-    "author": "xoá me game đi",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 1,
-    "title": "phục vụ tệ",
-    "text": "app này rất tệ mọi nguòi đừng tải",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": -1,
-      "label": "negative"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "ios_13430186558",
-    "platform": "ios",
-    "author": "Suk3m235",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 1,
-    "title": "Hoàn tiền",
-    "text": "Hệ thống lỗi liên hệ hỗ trợ 2 tháng cũng chưa hoàn tiền về, gọi lên tổng đài lúc nào cũng là đang xử lý mà 2 tháng chưa xử lý xong mặc dù có thể xác nhận ngay thời điểm gọi, không hiểu sinh ra tổng đài làm j",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": -1,
-      "label": "negative"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "ios_13427688822",
-    "platform": "ios",
-    "author": "Junsam4611",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 1,
-    "title": "Chuyển tiền nhầm",
-    "text": "Mình chuyển tiền nhầm cho tài xế 2 lần nhưng app không hỗ trợ liên hệ lại tài xế. Bt mình có thể cho luôn tài xế nhưng hôm đó tài xế thái độ mình k ưng. Nhắn tin cskh của be không hỗ trợ luôn. Quá tệ. Bgio thiếu gì app công nghệ. Xoá app.",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": -1,
-      "label": "negative"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "ios_13426791428",
-    "platform": "ios",
-    "author": "sáu danh cô",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 5,
-    "title": "Đặt xe",
-    "text": "Cách đặt hàng rất dễ dàng",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": 1,
-      "label": "positive"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "ios_13426583095",
-    "platform": "ios",
-    "author": "rong2000",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 1,
-    "title": "App cước phí càng ngày càng mắc",
-    "text": "Mắc vcl, tôi qua app khác",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": -1,
-      "label": "negative"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "ios_13426439668",
-    "platform": "ios",
-    "author": "tiền ảo đa cấp",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 5,
-    "title": "Ok",
-    "text": "Tài xế ok, vui vẻ, an toàn",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": 1,
-      "label": "positive"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "ios_13426341368",
-    "platform": "ios",
-    "author": "Huy kak",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 5,
-    "title": "Tốt",
-    "text": "Chuyến đi tốt , tài xế đến nhanh",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": 1,
-      "label": "positive"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "ios_13426337941",
-    "platform": "ios",
-    "author": "Paul ẩn danh",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 1,
-    "title": "1",
-    "text": "Dịch vụ chăm sóc khách hàng kém giải quyết vấn đề không thoả đáng",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": -1,
-      "label": "negative"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "ios_13426264171",
-    "platform": "ios",
-    "author": "Phuongphi1987",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 1,
-    "title": "App ko cập Nhật",
-    "text": "My kingdom Nguyễn Sơn dẹp rồi mà app chỉ đến đó mua làm tốn tiền khách",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": -1,
-      "label": "negative"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "ios_13425908212",
-    "platform": "ios",
-    "author": "dhjrbf t",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 3,
-    "title": "Mỗi lần update version nên có thông báo",
-    "text": "mỗi lần update version nên có thông báo tới người dùng, chứ kp để app lag lỏ",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": 0,
-      "label": "neutral"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "ios_13423464979",
-    "platform": "ios",
-    "author": "LêAnn",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 1,
-    "title": "Đánh giá tài xế",
-    "text": "Tài xế vô học, chạy xe lạng lách bóp kèn in ỏi dừng giữa đường và chửi nguòi đi đường. Check log đơn đường nguyễn khoái q4, thồ điểm 17h55, xe lead trắng",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": -1,
-      "label": "negative"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "ios_13423273855",
-    "platform": "ios",
-    "author": "Kai389",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 5,
-    "title": "Oke la",
-    "text": "Oke la",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": 1,
-      "label": "positive"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "ios_13422701694",
-    "platform": "ios",
-    "author": "Quâ chán",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 1,
-    "title": "Áp quá tệ suốt ngày cập nhật , đặt mãi k đk đơn gui di",
-    "text": "Rất bực mình càng ngày càng thấy be chán",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": -1,
-      "label": "negative"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "ios_13422701406",
-    "platform": "ios",
-    "author": "carrot052",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 1,
-    "title": "Huỷ chuyến",
-    "text": "đặt trước rồi còn huỷ được",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": -1,
-      "label": "negative"
-    },
-    "categories": [
-      "general"
-    ]
-  },
-  {
-    "id": "ios_13422253165",
-    "platform": "ios",
-    "author": "....18562",
-    "date": "2025-11-30T08:35:42.506Z",
-    "rating": 1,
-    "title": "Quá tệ",
-    "text": "Định vị sai 1km",
-    "version": "3.6.161",
-    "device": "iOS",
-    "replyDate": null,
-    "replyText": null,
-    "sentiment": {
-      "score": -1,
-      "label": "negative"
-    },
-    "categories": [
-      "gps_loi"
     ]
   }
 ]
